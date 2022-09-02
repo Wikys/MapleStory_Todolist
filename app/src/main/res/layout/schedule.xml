@@ -13,7 +13,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:text="알람"
-         />
+        />
 
     <TextView
         android:id="@+id/제목"
@@ -27,7 +27,7 @@
         android:text="오늘의 이슈!"
         android:textSize="20dp"
         android:textColor="@color/purple_500"
-         />
+        />
 
     <CalendarView
         android:id="@+id/일정"
@@ -42,7 +42,7 @@
         />
 
 
-         />
+    />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/일정추가"
@@ -68,7 +68,7 @@
         android:text="요약 \n오늘 @하세요~"
         android:textSize="20dp"
         android:textColor="@color/black"
-         />
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
