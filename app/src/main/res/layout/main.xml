@@ -33,20 +33,21 @@
 
     <TableRow>
 
-        <ImageButton
+        <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
             />
 
-        <ImageButton
+        <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
 
             />
 
-        <ImageButton
+        <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
+
 
             />
 
@@ -60,7 +61,7 @@
         />
 
 <TableRow>
-    <ImageButton
+    <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
 
