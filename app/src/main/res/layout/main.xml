@@ -3,12 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainimage"
+    android:orientation="vertical"
+    android:weightSum="6"
 
     >
     <Space
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
+
 
         />
     <TableRow>
@@ -19,6 +22,7 @@
             android:textAlignment="center"
             android:width="50dp"
             android:layout_height="50dp"
+
 
             android:text="메인메뉴">
 
@@ -33,22 +37,30 @@
 
     <TableRow>
 
-        <ImageButton
-            android:layout_width="100dp"
+        <Button
+            android:layout_width="0dp"
             android:layout_height="100dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="일일 퀘스트"
+            android:textSize="20dp"
+            android:background="@drawable/roundbutton"
             />
 
-        <ImageButton
-            android:layout_width="100dp"
+        <Button
+            android:layout_width="0dp"
             android:layout_height="100dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="일일 보스"
+            android:textSize="20dp"
+            android:background="@drawable/roundbutton"
 
             />
 
-        <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
 
-            />
 
 
     </TableRow>
@@ -60,11 +72,59 @@
         />
 
     <TableRow>
-        <ImageButton
-            android:layout_width="100dp"
+        <Button
+            android:layout_width="0dp"
             android:layout_height="100dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="주간 퀘스트"
+            android:textSize="20dp"
+            android:background="@drawable/roundbutton"
 
             />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="주간 보스"
+            android:textSize="20dp"
+            android:background="@drawable/roundbutton"
+
+            />
+    </TableRow>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+
+        />
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="재획 타이머"
+            android:textSize="20dp"
+            android:background="@drawable/roundbutton"
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="일정"
+            android:textSize="20dp"
+            android:background="@drawable/roundbutton"
+
+            />
+
     </TableRow>
 
 </TableLayout>

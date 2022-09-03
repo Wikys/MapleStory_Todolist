@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimage"
+
+    >
+
+
+    <View
+
+        android:id="@+id/배경"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+
+        android:background="@color/purple_200"
+
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"></Button>
+
+    </TableRow>
+
+</TableLayout>

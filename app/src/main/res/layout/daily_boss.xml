@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimage">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:chipSpacingHorizontal="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:singleSelection="true"
+
+        >
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/이지"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:text="이지"
+            android:textSize="20dp"
+            app:chipEndPadding="20dp"
+            app:chipStartPadding="20dp"
+            app:chipStrokeColor="@color/black" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/노말"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:text="노말"
+            android:textSize="20dp"
+            app:chipEndPadding="20dp"
+            app:chipStartPadding="20dp"
+            app:chipStrokeColor="@color/black" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/하드"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:text="하드(카오스)"
+            android:textSize="20dp"
+            app:chipEndPadding="20dp"
+            app:chipStartPadding="20dp"
+            app:chipStrokeColor="@color/black" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:weightSum="5"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/자쿰"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+                />
+
+            <ImageView
+                android:id="@+id/힐라"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+                />
+            <ImageView
+                android:id="@+id/혼테일"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+                />
+            <ImageView
+                android:id="@+id/반레온"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+                />
+            <ImageView
+                android:id="@+id/매그너스"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+                />
+
+
+
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <CheckBox
+                android:id="@+id/자쿰체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/힐라체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/혼테일체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/반레온체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/매그너스체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/아카이럼"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+                />
+            <ImageView
+                android:id="@+id/블러디퀸"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+                />
+            <ImageView
+                android:id="@+id/피에르"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+                />
+            <ImageView
+                android:id="@+id/반반"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+                />
+            <ImageView
+                android:id="@+id/벨룸"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+                />
+        </TableRow>
+        <TableRow>
+            <CheckBox
+                android:id="@+id/아카이럼체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/블러디퀸체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/피에르체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/반반체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/벨룸체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/카웅"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+
+                />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+
+
+            <ImageView
+                android:id="@+id/핑크빈"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+
+                />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/파풀라투스"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/exp_pendent"
+                android:layout_weight="1"
+
+
+                />
+        </TableRow>
+        <TableRow>
+            <CheckBox
+                android:id="@+id/카웅체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/핑크빈체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/파풀라투스체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </TableRow>
+    </TableLayout>
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
