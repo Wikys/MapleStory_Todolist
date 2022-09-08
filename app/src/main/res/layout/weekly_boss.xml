@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/mainimage">
 
+
+
     <com.google.android.material.chip.ChipGroup
         android:id="@+id/chip_group"
         android:layout_width="wrap_content"
@@ -16,7 +18,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:singleSelection="true"
-
         >
 
         <com.google.android.material.chip.Chip
@@ -31,7 +32,7 @@
             app:chipStartPadding="20dp"
             app:chipStrokeColor="@color/black" />
 
-        
+
 
         <com.google.android.material.chip.Chip
             android:id="@+id/노말"
@@ -58,17 +59,43 @@
             app:chipStrokeColor="@color/black" />
 
     </com.google.android.material.chip.ChipGroup>
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:chipSpacingHorizontal="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/chip_group"
+        app:singleSelection="true"
+        >
+        <com.google.android.material.chip.Chip
+            android:id="@+id/월간"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:text="월간보스"
+            android:textSize="20dp"
+            app:chipEndPadding="20dp"
+            app:chipStartPadding="20dp"
+            app:chipStrokeColor="@color/black" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="580dp"
+        android:layout_height="650dp"
         android:weightSum="5"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <TableRow>
 
             <ImageView
-                android:id="@+id/자쿰"
+                android:id="@+id/주간자쿰"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:background="@drawable/zakum"
@@ -77,7 +104,7 @@
                 />
 
             <ImageView
-                android:id="@+id/힐라"
+                android:id="@+id/주간힐라"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:background="@drawable/hila"
@@ -85,23 +112,23 @@
 
                 />
             <ImageView
-                android:id="@+id/혼테일"
+                android:id="@+id/주간파풀라투스"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:background="@drawable/hontail"
+                android:background="@drawable/papulatus"
                 android:layout_weight="1"
 
                 />
             <ImageView
-                android:id="@+id/반레온"
+                android:id="@+id/주간핑크빈"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:background="@drawable/von_leon"
+                android:background="@drawable/pinkbean"
                 android:layout_weight="1"
 
                 />
             <ImageView
-                android:id="@+id/매그너스"
+                android:id="@+id/주간매그너스"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:background="@drawable/magnus"
@@ -118,31 +145,31 @@
         <TableRow>
 
             <CheckBox
-                android:id="@+id/자쿰체크"
+                android:id="@+id/주간자쿰체크"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 />
             <CheckBox
-                android:id="@+id/힐라체크"
+                android:id="@+id/주간힐라체크"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 />
             <CheckBox
-                android:id="@+id/혼테일체크"
+                android:id="@+id/주간파풀라투스체크"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 />
             <CheckBox
-                android:id="@+id/반레온체크"
+                android:id="@+id/주간핑크빈체크"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                />
+                 />
             <CheckBox
-                android:id="@+id/매그너스체크"
+                android:id="@+id/주간매그너스체크"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -153,15 +180,15 @@
 
         <TableRow>
             <ImageView
-                android:id="@+id/아카이럼"
+                android:id="@+id/주간시그너스"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:background="@drawable/arkarium"
+                android:background="@drawable/cygnus"
                 android:layout_weight="1"
 
                 />
             <ImageView
-                android:id="@+id/블러디퀸"
+                android:id="@+id/주간블러디퀸"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:background="@drawable/bloody_queen"
@@ -169,7 +196,7 @@
 
                 />
             <ImageView
-                android:id="@+id/피에르"
+                android:id="@+id/주간피에르"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:background="@drawable/pierre"
@@ -177,7 +204,7 @@
 
                 />
             <ImageView
-                android:id="@+id/반반"
+                android:id="@+id/주간반반"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:background="@drawable/vonvon"
@@ -185,7 +212,7 @@
 
                 />
             <ImageView
-                android:id="@+id/벨룸"
+                android:id="@+id/주간벨룸"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:background="@drawable/vellum"
@@ -195,31 +222,31 @@
         </TableRow>
         <TableRow>
             <CheckBox
-                android:id="@+id/아카이럼체크"
+                android:id="@+id/주간시그너스체크"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 />
             <CheckBox
-                android:id="@+id/블러디퀸체크"
+                android:id="@+id/주간블러디퀸체크"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 />
             <CheckBox
-                android:id="@+id/피에르체크"
+                android:id="@+id/주간피에르체크"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 />
             <CheckBox
-                android:id="@+id/반반체크"
+                android:id="@+id/주간반반체크"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 />
             <CheckBox
-                android:id="@+id/벨룸체크"
+                android:id="@+id/주간벨룸체크"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -227,48 +254,192 @@
         </TableRow>
         <TableRow>
             <ImageView
-                android:id="@+id/카웅"
+                android:id="@+id/주간스우"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:background="@drawable/kaung"
+                android:background="@drawable/su"
                 android:layout_weight="1"
 
 
                 />
-            <Space
+            <ImageView
+                android:id="@+id/주간데미안"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
+                android:background="@drawable/demian"
                 android:layout_weight="1"
                 />
 
 
             <ImageView
-                android:id="@+id/핑크빈"
+                android:id="@+id/주간가엔슬"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:background="@drawable/pinkbean"
-                android:layout_weight="1"
-
-
-                />
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="70dp"
+                android:background="@drawable/gudian_angel_slime"
                 android:layout_weight="1"
                 />
             <ImageView
-                android:id="@+id/파풀라투스"
+                android:id="@+id/주간루시드"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:background="@drawable/papulatus"
+                android:background="@drawable/lucid"
                 android:layout_weight="1"
-
-
+                />
+            <ImageView
+                android:id="@+id/주간윌"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/will"
+                android:layout_weight="1"
                 />
         </TableRow>
         <TableRow>
             <CheckBox
-                android:id="@+id/카웅체크"
+                android:id="@+id/주간스우체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/주간데미안체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/주간가엔슬체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/주간루시드체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/주간윌체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/주간더스크"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/dusk"
+                android:layout_weight="1"
+
+
+                />
+            <ImageView
+                android:id="@+id/주간진힐라"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/verus_hila"
+                android:layout_weight="1"
+                />
+
+
+            <ImageView
+                android:id="@+id/주간듄켈"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/guard_captain_darknell"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/월간검은마법사"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/balck_mage"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/주간세렌"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/seren"
+                android:layout_weight="1"
+                />
+        </TableRow>
+        <TableRow>
+            <CheckBox
+                android:id="@+id/주간더스크체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/주간진힐라체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/주간듄켈체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/월간검은마법사체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/주간세렌체크"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </TableRow>
+        <TableRow>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/주간칼로스"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:background="@drawable/kalos_the_guardian"
+                android:layout_weight="1"
+                />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+        </TableRow>
+        <TableRow>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+            <CheckBox
+                android:id="@+id/주간칼로스체크"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -278,21 +449,9 @@
                 android:layout_height="70dp"
                 android:layout_weight="1"
                 />
-            <CheckBox
-                android:id="@+id/핑크빈체크"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                />
             <Space
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"
-                />
-            <CheckBox
-                android:id="@+id/파풀라투스체크"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 />
         </TableRow>

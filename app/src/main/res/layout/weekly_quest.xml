@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="일일퀘스트"
+            android:text="주간퀘스트"
             android:textAlignment="center"
 
 
@@ -58,7 +58,7 @@
             android:layout_marginRight="30dp"
 
             android:layout_weight="2"
-            android:background="@drawable/chuchu_island" />
+            android:background="@drawable/kritias" />
 
     </TableRow>
     <TableRow>
@@ -79,7 +79,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="츄츄 아일랜드"
+            android:text="크리티아스"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
             android:textAlignment="center"
@@ -121,7 +121,7 @@
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
 
-            android:background="@drawable/lachelein" />
+            android:background="@drawable/scrapyard" />
 
         <Space
             android:layout_width="wrap_content"
@@ -134,14 +134,14 @@
             android:layout_marginRight="30dp"
 
             android:layout_weight="2"
-            android:background="@drawable/arcana" />
+            android:background="@drawable/dark_world_tree" />
 
     </TableRow>
     <TableRow>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="레헬른"
+            android:text="헤이븐"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
             android:textAlignment="center"
@@ -155,7 +155,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="아르카나"
+            android:text="기계무덤"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
             android:textAlignment="center"
@@ -189,82 +189,10 @@
             android:layout_marginRight="30dp"
             />
     </TableRow>
-    <TableRow>
 
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="30dp"
-            android:layout_weight="2"
 
-            android:background="@drawable/morass" />
 
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:layout_weight="1" />
 
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_marginRight="30dp"
-
-            android:layout_weight="2"
-            android:background="@drawable/esfera" />
-
-    </TableRow>
-    <TableRow>
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="모라스"
-            android:textSize="20dp"
-            android:textColor="@color/purple_500"
-            android:textAlignment="center"
-            android:layout_marginLeft="30dp"
-            android:layout_weight="2"
-            />
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="에스페라"
-            android:textSize="20dp"
-            android:textColor="@color/purple_500"
-            android:textAlignment="center"
-            android:layout_marginRight="30dp"
-            android:layout_weight="2"
-            />
-
-    </TableRow>
-
-    <TableRow>
-        <CheckBox
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="2"
-            android:clickable="true"
-            android:layout_marginLeft="30dp"
-            />
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-        <CheckBox
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="2"
-            android:clickable="true"
-            android:layout_marginRight="30dp"
-            />
-    </TableRow>
 
 
 </TableLayout>

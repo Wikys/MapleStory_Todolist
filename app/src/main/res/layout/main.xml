@@ -63,6 +63,8 @@
 
 
 
+
+
     </TableRow>
     <Space
         android:layout_width="wrap_content"
@@ -120,6 +122,37 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:text="일정"
+            android:textSize="20dp"
+            android:background="@drawable/roundbutton"
+
+            />
+
+    </TableRow>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+
+        />
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="시드 도우미"
+            android:textSize="20dp"
+            android:background="@drawable/roundbutton"
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="무릉 유틸"
             android:textSize="20dp"
             android:background="@drawable/roundbutton"
 
