@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/mulung">
     <TextView
+        android:id="@+id/타이틀"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="무릉 도우미"
@@ -12,6 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:textColor="@color/purple_500"
+
         />
 
 
@@ -49,6 +51,8 @@
         android:layout_marginBottom="120dp"
         android:background="@color/white"
         android:textAlignment="center"
+
+
         />
 
     <ProgressBar
@@ -60,16 +64,42 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="100dp"
+
         />
 
     <FrameLayout
+        android:id="@+id/스테이터스"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="0dp"
+        android:layout_below="@+id/타이틀"
+        android:layout_above="@+id/타이머"
+        android:layout_marginBottom="10dp"
 
+
+        >
+        <TextView
+            android:id="@+id/준비"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#8B000000"
+            android:text="도핑을 확인해주세요\n\n길,우뿌\n익스트림레드/블루/그린\n유니온의 힘\n영웅의 메아리\nMVP슈퍼파워\n전영비+고보킬,반빨별+대영비\n노블\n9,10랩 스탯물약,5랩 공마물약\n아기용의 이유식"
+
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/teal_700"
+            android:paddingTop="20dp"
+            android:visibility="visible"
+            />
+        <TextView
+            android:id="@+id/메모"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+
+            />
+<!--시작누르면 메모로 전환-->
+<!--플로팅버튼 누르면 층별전략 수정 가능, 시간별전략 수정가능 -->
+<!--층별전략으로 층을 추가하면 입력받은 정보로 입력한 층수에맞는 아이디를 가진 새로운-->
+<!--        텍스트뷰 생성-->
     </FrameLayout>
-
-
-
-
-
 </RelativeLayout>
