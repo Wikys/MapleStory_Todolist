@@ -19,21 +19,18 @@
             android:layout_weight="1"
             android:textSize="30dp"
             android:textColor="@color/purple_200"
-            android:textAlignment="center"
+            android:gravity="center"
             android:width="50dp"
             android:layout_height="50dp"
-
-
             android:text="메인메뉴">
-
         </TextView>
     </TableRow>
     <Space
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
-
         />
+
 
     <TableRow>
 

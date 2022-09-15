@@ -3,16 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.teamnova_android_one">
 
+    <uses-permission android:name = "android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+<!--    진동,화면켜기-->
+
+
     <application
-        android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
         android:theme="@style/Theme.Teamnova_android_one"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
