@@ -39,18 +39,19 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="20dp"
         />
+
     <TextView
         android:id="@+id/타이머"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="15:00"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="120dp"
         android:background="@color/white"
+        android:text="15:00"
         android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
 
 
         />
@@ -90,7 +91,7 @@
             android:paddingTop="20dp"
             android:visibility="visible"
             />
-        <TextView
+        <EditText
             android:id="@+id/메모"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -99,7 +100,7 @@
             />
 <!--시작누르면 메모로 전환-->
 <!--플로팅버튼 누르면 층별전략 수정 가능, 시간별전략 수정가능 -->
-<!--층별전략으로 층을 추가하면 입력받은 정보로 입력한 층수에맞는 아이디를 가진 새로운-->
+<!--시간별전략,층별전략으로 층을 추가하면 입력받은 정보로 입력한 층수에맞는 아이디를 가진 새로운-->
 <!--        텍스트뷰 생성-->
     </FrameLayout>
 </RelativeLayout>

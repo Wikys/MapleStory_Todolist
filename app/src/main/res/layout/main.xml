@@ -3,158 +3,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainimage"
-    android:orientation="vertical"
-    android:weightSum="6"
-
+    android:weightSum="10"
     >
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-
-
+        android:layout_weight="1"
         />
-    <TableRow>
-        <TextView
-            android:layout_weight="1"
-            android:textSize="30dp"
-            android:textColor="@color/purple_200"
-            android:gravity="center"
-            android:width="50dp"
-            android:layout_height="50dp"
-            android:text="메인메뉴">
-        </TextView>
-    </TableRow>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jalnan"
+        android:textColor="#FC86D1"
+        android:text="메인 메뉴"
+        android:gravity="center"
+        android:textSize="40dp"
+        />
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
         />
-
-
-    <TableRow>
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_weight="2"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:text="일일 퀘스트"
-            android:textSize="20dp"
-            android:background="@drawable/roundbutton"
-            />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_weight="2"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:text="일일 보스"
-            android:textSize="20dp"
-            android:background="@drawable/roundbutton"
+    <TableRow
+        android:layout_weight="1"
+        >
+        <Space
+            android:layout_height="match_parent"
+            android:layout_weight="1"
 
             />
-
-
-
-
-
-
-    </TableRow>
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-
+        <Button
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/roundbutton"
         />
-
-    <TableRow>
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_weight="2"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:text="주간 퀘스트"
-            android:textSize="20dp"
-            android:background="@drawable/roundbutton"
-
+        <Space
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             />
         <Button
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:layout_weight="2"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:text="주간 보스"
-            android:textSize="20dp"
-            android:background="@drawable/roundbutton"
-
+            />
+        <Space
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             />
     </TableRow>
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
 
-        />
-    <TableRow>
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:text="재획 타이머"
-            android:textSize="20dp"
-            android:background="@drawable/roundbutton"
 
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:text="일정"
-            android:textSize="20dp"
-            android:background="@drawable/roundbutton"
-
-            />
-
-    </TableRow>
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-
-        />
-    <TableRow>
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:text="시드 도우미"
-            android:textSize="20dp"
-            android:background="@drawable/roundbutton"
-
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:text="무릉 유틸"
-            android:textSize="20dp"
-            android:background="@drawable/roundbutton"
-
-            />
-
-    </TableRow>
 
 </TableLayout>
+<!--사용가능한 레이아웃 랠러티브 리니어 테이블 컨스트레인트-->
+<!--리니어 레이아웃으로 구성시 수많은 중첩이 필요함-->
+<!--리니어로 구성시 (중첩마다)행마다 크기및 속성을 지정해줄필요가 있음 -->
+<!--랠러티브로 구성시에는 단점이..마진설정 졸라해야되고-->
