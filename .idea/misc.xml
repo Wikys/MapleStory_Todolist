@@ -3,19 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/drawable/bordertext.xml" value="0.1755" />
         <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/drawable/roundbutton.xml" value="0.1755" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/drawable/shadow.xml" value="0.1755" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/font/font.xml" value="0.325" />
         <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout-land/activity_main.xml" value="0.2892416225749559" />
         <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/daily_boss.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/daily_quest.xml" value="0.1661600810536981" />
         <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/dd.xml" value="0.3840749414519906" />
-        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.23897707231040563" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1922544887121446" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/mulung_helper.xml" value="0.1661600810536981" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/schedule.xml" value="0.1661600810536981" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/seed_helper.xml" value="0.1661600810536981" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/test.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/timer.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/weekly_boss.xml" value="0.1661600810536981" />
+        <entry key="..\:/Users/ayc08/AndroidStudioProjects/teamnova_android_one2/app/src/main/res/layout/weekly_quest.xml" value="0.1661600810536981" />
         <entry key="app/src/main/res/layout/daily_boss.xml" value="0.2011444091796875" />
         <entry key="app/src/main/res/layout/daily_quest.xml" value="0.3235865275065104" />
         <entry key="app/src/main/res/layout/main.xml" value="0.20933329264322917" />
         <entry key="app/src/main/res/layout/mulung_helper.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/schedule.xml" value="0.31705729166666663" />
         <entry key="app/src/main/res/layout/seed_helper.xml" value="0.28229166666666666" />
-        <entry key="app/src/main/res/layout/test.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/timer.xml" value="0.19389139811197917" />
         <entry key="app/src/main/res/layout/weekly_boss.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/weekly_quest.xml" value="0.28229166666666666" />

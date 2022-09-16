@@ -1,58 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainimage"
     android:weightSum="10"
+
     >
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_weight="1"
-        />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/jalnan"
-        android:textColor="#FC86D1"
-        android:text="메인 메뉴"
-        android:gravity="center"
-        android:textSize="40dp"
-        />
-    <Space
+        android:id="@+id/제목"
         android:layout_width="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/jalnan"
+        android:text="메인 메뉴"
+        android:textColor="#FC86D1"
+        android:textSize="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/일일퀘스트"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:background="@drawable/roundbutton"
+        app:layout_constraintTop_toBottomOf="@+id/제목"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/일일보스"
+        android:layout_marginTop="40dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
+
         />
-    <TableRow
-        android:layout_weight="1"
-        >
-        <Space
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+    <Button
+        android:id="@+id/일일보스"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:background="@drawable/roundbutton"
+        app:layout_constraintTop_toBottomOf="@+id/제목"
+        app:layout_constraintLeft_toRightOf="@+id/일일퀘스트"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"
 
-            />
-        <Button
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/roundbutton"
+
         />
-        <Space
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            />
-        <Button
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            />
-        <Space
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            />
-    </TableRow>
+
+
+<!--    <TableLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="590dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+
+<!--        >-->
+
+<!--        <TableRow android:weightSum="8">-->
+
+<!--            <Space-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/일일퀘스트"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_weight="2.5"-->
+<!--                android:background="@drawable/roundbutton"-->
+<!--                />-->
+
+<!--            <Space-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/일일보스"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_weight="2.5"-->
+<!--                android:background="@drawable/roundbutton" />-->
+
+<!--            <Space-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+
+<!--        </TableRow>-->
+<!--        <TextView-->
+<!--            android:id="@+id/일퀘텍스트"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="일일퀘스트"-->
+<!--            android:fontFamily="@font/jalnan"-->
+<!--            android:textSize="20dp"-->
+<!--            -->
+<!--            />-->
+<!--    </TableLayout>-->
 
 
 
-</TableLayout>
-<!--사용가능한 레이아웃 랠러티브 리니어 테이블 컨스트레인트-->
-<!--리니어 레이아웃으로 구성시 수많은 중첩이 필요함-->
-<!--리니어로 구성시 (중첩마다)행마다 크기및 속성을 지정해줄필요가 있음 -->
-<!--랠러티브로 구성시에는 단점이..마진설정 졸라해야되고-->
+</androidx.constraintlayout.widget.ConstraintLayout><!--사용가능한 레이아웃 랠러티브 리니어 테이블 컨스트레인트-->
+    <!--리니어 레이아웃으로 구성시 수많은 중첩이 필요함-->
+    <!--리니어로 구성시 (중첩마다)행마다 크기및 속성을 지정해줄필요가 있음 -->
+    <!--랠러티브로 구성시에는 단점이..마진설정 졸라해야되고-->
+
+
+    <!--배경색 있는 버튼 위에 작은이미지 그밑에 텍스트뷰 (테이블,리니어로 안됨)-->
+    <!--텍스트뷰 이미지뷰 버튼을 체인으로 묶어서 겹쳐놨는데 사실 이거만보면-->
+    <!--랠러티브로도 가능하지만 화면을 질서정연하게 만들고싶어 -->
+    <!--    가중치를 통한 정렬기능이 필요했음-->
+
+    <!--테이블레이아웃 중첩?-->
+<!--컨스트 안에 테이블레이아웃 중첩해서 버튼정렬만 테이블로하고 컨스트로 -->
+<!--텍뷰랑 이미지뷰 넣을라했는데 같은레이아웃이 아니라 체인이 안걸림 시발-->
+
+<!--버튼안에 이미지뷰랑 텍스트뷰만들기-->
