@@ -22,97 +22,326 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <Button
+    <LinearLayout
         android:id="@+id/일일퀘스트"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
         android:layout_width="120dp"
         android:layout_height="100dp"
-        android:background="@drawable/roundbutton"
+        android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@+id/제목"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/일일보스"
         android:layout_marginTop="40dp"
         app:layout_constraintHorizontal_chainStyle="spread"
-        android:stateListAnimator="@null"
 
-        />
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/dq"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            />
 
-    <Button
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="일일 퀘스트"
+            android:textSize="20dp"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/일일보스"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
         android:layout_width="120dp"
         android:layout_height="100dp"
-        android:background="@drawable/roundbutton"
+        android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@+id/제목"
-        app:layout_constraintLeft_toRightOf="@+id/일일퀘스트"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/일일퀘스트"
         android:layout_marginTop="40dp"
-        />
+        app:layout_constraintHorizontal_chainStyle="spread"
 
-    <ImageView
-        android:id="@+id/일퀘텍스트"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:src="@drawable/dq"
-        app:layout_constraintBottom_toBottomOf="@+id/일일퀘스트"
-        app:layout_constraintLeft_toLeftOf="@+id/일일퀘스트"
-        app:layout_constraintRight_toRightOf="@+id/일일퀘스트"
-        app:layout_constraintTop_toTopOf="@+id/일일퀘스트"
-
-
-        />
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/vonvon"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            />
 
 
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="일일 보스"
+            android:textSize="20dp"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
 
-<!--    <TableLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="590dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <LinearLayout
+        android:id="@+id/주간퀘스트"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/일일퀘스트"
+        app:layout_constraintRight_toLeftOf="@id/주간보스"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="40dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
 
-<!--        >-->
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/wq"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            />
 
-<!--        <TableRow android:weightSum="8">-->
 
-<!--            <Space-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_weight="1" />-->
 
-<!--            <Button-->
-<!--                android:id="@+id/일일퀘스트"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="100dp"-->
-<!--                android:layout_weight="2.5"-->
-<!--                android:background="@drawable/roundbutton"-->
-<!--                />-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="주간 퀘스트"
+            android:textSize="20dp"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
 
-<!--            <Space-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_weight="1" />-->
+    <LinearLayout
+        android:id="@+id/주간보스"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/일일보스"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/주간퀘스트"
+        android:layout_marginTop="40dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
 
-<!--            <Button-->
-<!--                android:id="@+id/일일보스"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="100dp"-->
-<!--                android:layout_weight="2.5"-->
-<!--                android:background="@drawable/roundbutton" />-->
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/balck_mage"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            />
 
-<!--            <Space-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_weight="1" />-->
 
-<!--        </TableRow>-->
-<!--        <TextView-->
-<!--            android:id="@+id/일퀘텍스트"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:text="일일퀘스트"-->
-<!--            android:fontFamily="@font/jalnan"-->
-<!--            android:textSize="20dp"-->
-<!--            -->
-<!--            />-->
-<!--    </TableLayout>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="주간 보스"
+            android:textSize="20dp"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/재획타이머"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/주간퀘스트"
+        app:layout_constraintRight_toLeftOf="@id/일정표"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="40dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/wealth_acquisition_potion"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="재획 타이머"
+            android:textSize="20dp"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/일정표"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/주간보스"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/재획타이머"
+        android:layout_marginTop="40dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/calender"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="일정표"
+            android:textSize="20dp"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/시드도우미"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/재획타이머"
+        app:layout_constraintRight_toLeftOf="@id/무릉도우미"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="40dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/bordertext"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="시드 도우미"
+            android:textSize="20dp"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/무릉도우미"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/일정표"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/시드도우미"
+        android:layout_marginTop="40dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/bordertext"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="무릉 도우미"
+            android:textSize="20dp"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/일일퀘스트"-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background="@drawable/roundbutton"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/제목"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toLeftOf="@id/일일보스"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        app:layout_constraintHorizontal_chainStyle="spread"-->
+<!--        android:stateListAnimator="@null"-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/일퀘텍스트"-->
+    <!--        android:layout_width="70dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:src="@drawable/dq"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/일일퀘스트"-->
+    <!--        app:layout_constraintLeft_toLeftOf="@+id/일일퀘스트"-->
+    <!--        app:layout_constraintRight_toRightOf="@+id/일일퀘스트"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/일일퀘스트"-->
+
+<!--    <Button-->
+<!--        android:id="@+id/일일보스"-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background="@drawable/roundbutton"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/제목"-->
+<!--        app:layout_constraintLeft_toRightOf="@+id/일일퀘스트"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        />-->
+
+
+
+
+
 
 
 
@@ -120,6 +349,7 @@
     <!--리니어 레이아웃으로 구성시 수많은 중첩이 필요함-->
     <!--리니어로 구성시 (중첩마다)행마다 크기및 속성을 지정해줄필요가 있음 -->
     <!--랠러티브로 구성시에는 단점이..마진설정 졸라해야되고-->
+<!--테이블로 구성시...-->
 
 
     <!--배경색 있는 버튼 위에 작은이미지 그밑에 텍스트뷰 (테이블,리니어로 안됨)-->
@@ -132,3 +362,15 @@
 <!--텍뷰랑 이미지뷰 넣을라했는데 같은레이아웃이 아니라 체인이 안걸림 시발-->
 
 <!--버튼안에 이미지뷰랑 텍스트뷰만들기-->
+
+<!--    android:stateListAnimator="@null" 버튼에 넣어서-->
+<!--만들라니까 음영이 사라져서 버튼 눌리는지 안눌리는지 모르겠음-->
+
+<!--컨스트레인트 레이아웃을 써야하는 이유를 증명하기위해 버튼들 뒤에 반투명배경하나깔기-->
+<!--이렇게 하게되면 걍 렐러티브(중첩되니까)쓰면되지않느냐에대한 질문은-->
+<!--리니어 버튼들을 묶어주기위해 체인을 사용해야해서 컨스트로 했다고 대답-->
+
+<!--결론 : 리니어 레이아웃을 버튼으로 만들고 세로정렬기능을 사용하여 안에 이미지뷰-->
+<!--텍스트뷰 배치후 가중치 삽입 , 레이아웃 버튼들은 상대위치지정과 체인기능으로 묶음-->
+
+<!--이거 테이블레이아웃으로 했어도 됐던거아닌가...-->
