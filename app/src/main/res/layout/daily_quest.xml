@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainimage"
-    android:weightSum="6">
+    android:orientation="vertical"
 
-
+    >
     <Space
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="40dp"
 
 
         />
@@ -23,11 +23,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="일일퀘스트"
-            
             android:gravity="center"
-
-
             android:textColor="@color/purple_200"
+            android:fontFamily="@font/jalnan"
             android:textSize="30dp" />
 
 
@@ -69,6 +67,7 @@
             android:text="소멸의 여로"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
+            android:fontFamily="@font/jalnan"
             android:gravity="center"
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
@@ -83,6 +82,7 @@
             android:text="츄츄 아일랜드"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
+            android:fontFamily="@font/jalnan"
             android:gravity="center"
             android:layout_marginRight="30dp"
             android:layout_weight="2"
@@ -91,13 +91,16 @@
     </TableRow>
 
     <TableRow>
+
+
         <CheckBox
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
             android:layout_weight="2"
             android:clickable="true"
-            android:layout_marginLeft="30dp"
+            android:gravity="center"
+
             />
 
         <Space
@@ -108,7 +111,7 @@
         <CheckBox
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:gravity="center"
             android:layout_weight="2"
             android:clickable="true"
             android:layout_marginRight="30dp"
@@ -145,6 +148,7 @@
             android:text="레헬른"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
+            android:fontFamily="@font/jalnan"
             android:gravity="center"
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
@@ -159,6 +163,7 @@
             android:text="아르카나"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
+            android:fontFamily="@font/jalnan"
             android:gravity="center"
             android:layout_marginRight="30dp"
             android:layout_weight="2"
@@ -170,7 +175,7 @@
         <CheckBox
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:gravity="center"
             android:layout_weight="2"
             android:clickable="true"
             android:layout_marginLeft="30dp"
@@ -184,7 +189,7 @@
         <CheckBox
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:gravity="center"
             android:layout_weight="2"
             android:clickable="true"
             android:layout_marginRight="30dp"
@@ -221,6 +226,7 @@
             android:text="모라스"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
+            android:fontFamily="@font/jalnan"
             android:gravity="center"
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
@@ -235,6 +241,7 @@
             android:text="에스페라"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
+            android:fontFamily="@font/jalnan"
             android:gravity="center"
             android:layout_marginRight="30dp"
             android:layout_weight="2"
@@ -246,7 +253,7 @@
         <CheckBox
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:gravity="center"
             android:layout_weight="2"
             android:clickable="true"
             android:layout_marginLeft="30dp"
@@ -260,12 +267,18 @@
         <CheckBox
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:gravity="center"
             android:layout_weight="2"
             android:clickable="true"
             android:layout_marginRight="30dp"
             />
     </TableRow>
-
-
 </TableLayout>
+
+
+
+
+
+
+<!--    리니어 레이아웃 중첩으로 표현시 매번 레이아웃에 속성과 방향을 지정해줘야해서 가독성이 매우 떨어짐-->
+<!-- -->
