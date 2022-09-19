@@ -12,7 +12,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:orientation="vertical"
-        android:weightSum="10"
+
+
         >
 
         <TextView
@@ -23,8 +24,9 @@
             android:fontFamily="@font/jalnan"
             android:gravity="center"
             android:textColor="@color/teal_700"
-
             android:text="시드 층"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
 
             />
 
@@ -34,7 +36,10 @@
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
-            android:text="23" />
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="23"
+            android:layout_marginBottom="5dp"/>
 
         <Button
             android:layout_width="60dp"
@@ -42,7 +47,10 @@
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
-            android:text="24" />
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="24"
+            android:layout_marginBottom="5dp"/>
 
         <Button
             android:layout_width="60dp"
@@ -50,7 +58,10 @@
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
-            android:text="36" />
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="36"
+            android:layout_marginBottom="5dp"/>
 
         <Button
             android:layout_width="60dp"
@@ -58,7 +69,10 @@
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
-            android:text="39" />
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="39"
+            android:layout_marginBottom="5dp"/>
 
         <Button
             android:layout_width="60dp"
@@ -66,7 +80,10 @@
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
-            android:text="47" />
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="47"
+            android:layout_marginBottom="5dp"/>
 
         <Button
             android:layout_width="60dp"
@@ -74,7 +91,10 @@
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
-            android:text="48" />
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="48"
+            android:layout_marginBottom="5dp"/>
 
         <Button
             android:layout_width="60dp"
@@ -82,7 +102,10 @@
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
-            android:text="49" />
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="49"
+            android:layout_marginBottom="5dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -90,6 +113,18 @@
         android:layout_height="match_parent"
 
         android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/jalnan"
+            android:textColor="@color/white"
+            android:textSize="29dp"
+            android:text="공략을 보고싶은 층을 선택해주세요"
+            android:gravity="center"
+
+
+            />
 
 
 

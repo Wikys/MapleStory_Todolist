@@ -9,7 +9,7 @@
     <Space
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="20dp"
 
 
         />
@@ -27,8 +27,6 @@
             android:textColor="@color/purple_200"
             android:fontFamily="@font/jalnan"
             android:textSize="30dp" />
-
-
     </TableRow>
 
     <Space
@@ -40,7 +38,7 @@
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="130dp"
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
 
@@ -53,7 +51,7 @@
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="130dp"
             android:layout_marginRight="30dp"
 
             android:layout_weight="2"
@@ -93,14 +91,16 @@
     <TableRow>
 
 
-        <CheckBox
+        <ToggleButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
             android:clickable="true"
             android:gravity="center"
-
+            android:textOff="도전 가능"
+            android:textOn="Clear"
+            android:fontFamily="@font/jalnan"
             />
 
         <Space
@@ -108,23 +108,25 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <CheckBox
+        <ToggleButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_weight="2"
             android:clickable="true"
             android:layout_marginRight="30dp"
+            android:textOff="도전 가능"
+            android:textOn="Clear"
+            android:fontFamily="@font/jalnan"
             />
     </TableRow>
     <TableRow>
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="130dp"
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
-
             android:background="@drawable/lachelein" />
 
         <Space
@@ -134,7 +136,7 @@
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="130dp"
             android:layout_marginRight="30dp"
 
             android:layout_weight="2"
@@ -172,13 +174,16 @@
     </TableRow>
 
     <TableRow>
-        <CheckBox
+        <ToggleButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:layout_marginLeft="30dp"
             android:layout_weight="2"
             android:clickable="true"
-            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:textOff="도전 가능"
+            android:textOn="Clear"
+            android:fontFamily="@font/jalnan"
             />
 
         <Space
@@ -186,20 +191,23 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <CheckBox
+        <ToggleButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:layout_marginRight="30dp"
             android:layout_weight="2"
             android:clickable="true"
-            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:textOff="도전 가능"
+            android:textOn="Clear"
+            android:fontFamily="@font/jalnan"
             />
     </TableRow>
     <TableRow>
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="130dp"
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
 
@@ -212,7 +220,7 @@
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="130dp"
             android:layout_marginRight="30dp"
 
             android:layout_weight="2"
@@ -250,13 +258,16 @@
     </TableRow>
 
     <TableRow>
-        <CheckBox
+        <ToggleButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:layout_marginLeft="30dp"
             android:layout_weight="2"
             android:clickable="true"
-            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:textOff="도전 가능"
+            android:textOn="Clear"
+            android:fontFamily="@font/jalnan"
             />
 
         <Space
@@ -264,13 +275,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <CheckBox
+        <ToggleButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:layout_marginRight="30dp"
             android:layout_weight="2"
             android:clickable="true"
-            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:textOff="도전 가능"
+            android:textOn="Clear"
+            android:fontFamily="@font/jalnan"
             />
     </TableRow>
 </TableLayout>
