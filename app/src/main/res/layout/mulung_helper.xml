@@ -27,18 +27,18 @@
 
         android:textOff="시작하기"
         android:textOn="중단" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/일정추가"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:clickable="true"
-        app:srcCompat="@android:drawable/ic_input_add"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentStart="true"
         android:layout_marginStart="20dp"
-        />
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add" />
 
     <TextView
         android:id="@+id/타이머"
@@ -102,5 +102,8 @@
 <!--플로팅버튼 누르면 층별전략 수정 가능, 시간별전략 수정가능 -->
 <!--시간별전략,층별전략으로 층을 추가하면 입력받은 정보로 입력한 층수에맞는 아이디를 가진 새로운-->
 <!--        텍스트뷰 생성-->
+
+<!--        사용가능 레이아웃 : 리니어, 랠러티브, 컨스트-->
+
     </FrameLayout>
 </RelativeLayout>

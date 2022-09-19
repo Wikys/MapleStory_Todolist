@@ -3,13 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainimage"
-    android:weightSum="6">
+    android:orientation="vertical"
 
-
+    >
     <Space
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="20dp"
+
+
         />
 
     <TableRow
@@ -20,12 +22,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="주간퀘스트"
+            android:text="일일퀘스트"
             android:gravity="center"
             android:textColor="@color/purple_200"
+            android:fontFamily="@font/jalnan"
             android:textSize="30dp" />
-
-
     </TableRow>
 
     <Space
@@ -37,7 +38,7 @@
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="130dp"
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
 
@@ -50,7 +51,7 @@
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="130dp"
             android:layout_marginRight="30dp"
 
             android:layout_weight="2"
@@ -64,6 +65,7 @@
             android:text="소멸의 여로"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
+            android:fontFamily="@font/jalnan"
             android:gravity="center"
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
@@ -78,6 +80,7 @@
             android:text="크리티아스"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
+            android:fontFamily="@font/jalnan"
             android:gravity="center"
             android:layout_marginRight="30dp"
             android:layout_weight="2"
@@ -86,13 +89,18 @@
     </TableRow>
 
     <TableRow>
-        <CheckBox
+
+
+        <ToggleButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
             android:layout_weight="2"
             android:clickable="true"
-            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:textOff="미완료"
+            android:textOn="Clear"
+            android:fontFamily="@font/jalnan"
             />
 
         <Space
@@ -100,23 +108,25 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <CheckBox
+        <ToggleButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:gravity="center"
             android:layout_weight="2"
             android:clickable="true"
             android:layout_marginRight="30dp"
+            android:textOff="미완료"
+            android:textOn="Clear"
+            android:fontFamily="@font/jalnan"
             />
     </TableRow>
     <TableRow>
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="130dp"
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
-
             android:background="@drawable/scrapyard" />
 
         <Space
@@ -126,7 +136,7 @@
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="130dp"
             android:layout_marginRight="30dp"
 
             android:layout_weight="2"
@@ -137,9 +147,10 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="헤이븐"
+            android:text="기계무덤"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
+            android:fontFamily="@font/jalnan"
             android:gravity="center"
             android:layout_marginLeft="30dp"
             android:layout_weight="2"
@@ -151,9 +162,10 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="기계무덤"
+            android:text="타락한 세계수"
             android:textSize="20dp"
             android:textColor="@color/purple_500"
+            android:fontFamily="@font/jalnan"
             android:gravity="center"
             android:layout_marginRight="30dp"
             android:layout_weight="2"
@@ -162,13 +174,16 @@
     </TableRow>
 
     <TableRow>
-        <CheckBox
+        <ToggleButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
             android:layout_weight="2"
             android:clickable="true"
-            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:textOff="미완료"
+            android:textOn="Clear"
+            android:fontFamily="@font/jalnan"
             />
 
         <Space
@@ -176,17 +191,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <CheckBox
+        <ToggleButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_marginRight="30dp"
             android:layout_weight="2"
             android:clickable="true"
-            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:textOff="미완료"
+            android:textOn="Clear"
+            android:fontFamily="@font/jalnan"
             />
     </TableRow>
-
-
 
 
 

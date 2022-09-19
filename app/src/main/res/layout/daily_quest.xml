@@ -98,7 +98,7 @@
             android:layout_weight="2"
             android:clickable="true"
             android:gravity="center"
-            android:textOff="도전 가능"
+            android:textOff="미완료"
             android:textOn="Clear"
             android:fontFamily="@font/jalnan"
             />
@@ -115,7 +115,7 @@
             android:layout_weight="2"
             android:clickable="true"
             android:layout_marginRight="30dp"
-            android:textOff="도전 가능"
+            android:textOff="미완료"
             android:textOn="Clear"
             android:fontFamily="@font/jalnan"
             />
@@ -181,7 +181,7 @@
             android:layout_weight="2"
             android:clickable="true"
             android:gravity="center"
-            android:textOff="도전 가능"
+            android:textOff="미완료"
             android:textOn="Clear"
             android:fontFamily="@font/jalnan"
             />
@@ -198,7 +198,7 @@
             android:layout_weight="2"
             android:clickable="true"
             android:gravity="center"
-            android:textOff="도전 가능"
+            android:textOff="미완료"
             android:textOn="Clear"
             android:fontFamily="@font/jalnan"
             />
@@ -265,7 +265,7 @@
             android:layout_weight="2"
             android:clickable="true"
             android:gravity="center"
-            android:textOff="도전 가능"
+            android:textOff="미완료"
             android:textOn="Clear"
             android:fontFamily="@font/jalnan"
             />
@@ -282,7 +282,7 @@
             android:layout_weight="2"
             android:clickable="true"
             android:gravity="center"
-            android:textOff="도전 가능"
+            android:textOff="미완료"
             android:textOn="Clear"
             android:fontFamily="@font/jalnan"
             />
@@ -294,5 +294,6 @@
 
 
 
-<!--    리니어 레이아웃 중첩으로 표현시 매번 레이아웃에 속성과 방향을 지정해줘야해서 가독성이 매우 떨어짐-->
+<!--    테이블레이아웃을 한번 사용은 해봤으나 매우 간단한 구성으로 리니어로 해도 상관이 없는 구성이었음
+실제로 화면구성시에도 테이블로우를 제외한 모든기능은 리니어 레이아웃의 기능을 사용함-->
 <!-- -->
