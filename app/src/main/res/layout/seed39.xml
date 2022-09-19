@@ -46,7 +46,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
-            android:background="@drawable/roundbutton"
+            android:background="@drawable/roundbtnviolet"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="24"
@@ -68,7 +68,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
-            android:background="@drawable/roundbtnviolet"
+            android:background="@drawable/roundbutton"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="39"
@@ -119,7 +119,7 @@
             android:layout_height="match_parent"
             android:fontFamily="@font/jalnan"
             android:textSize="29dp"
-            android:text="시드 24층"
+            android:text="시드 39층"
             android:gravity="center"
             android:background="@drawable/roundbutton"
             />
@@ -128,79 +128,137 @@
             android:layout_marginTop="2dp"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
+            android:layout_marginBottom="4dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/border"
-            app:queryHint="힌트 검색(예: 마을이름,설명)"
+            app:queryHint="문제 또는 답 검색(예:골드비치)"
             app:iconifiedByDefault="false"
             />
-
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="골드비치 리조트에 거주하는 잡화 상인 이름은?"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"
+            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/border"
-            android:layout_marginBottom="2dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/less"
-
-
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="1.스크루지"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
                 />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/jalnan"
-                android:textSize="10dp"
-                android:text="리스항구"
-
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="2.나탈리"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
                 />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="푸른빛 바다가 보이는 부둣가에서 갈매기가 날아다니는 것을 바라보고 있는 느낌이 들어."
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbtnviolet"
+                android:text="3.메이슨"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
                 />
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="4.베티"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                />
         </LinearLayout>
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="노틸러스의 무기 상인 이름은?"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"
+            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/border"
-            android:layout_marginBottom="2dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/perion"
-
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="1.리드"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
                 />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/jalnan"
-                android:textSize="10dp"
-                android:text="페리온"
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="2.프란시스"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
                 />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="황량한 바람이 부는 황무지 한가운데, 비장한 전투 부족과 마주친 느낌이 들어."
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="3.테스"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
                 />
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbtnviolet"
+                android:text="4.모건"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                />
         </LinearLayout>
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+
     </LinearLayout>
 
 
 
 
 </LinearLayout>
-
-<!--힌트를 검색해서 노래를 찾는 화면-->
-<!--리니어 레이아웃으로 구성-->
-<!--스크롤뷰 사용하지말라고해서 일단은 보류-->

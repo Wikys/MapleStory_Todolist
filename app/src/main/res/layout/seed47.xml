@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
 
     >
@@ -46,7 +45,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
-            android:background="@drawable/roundbutton"
+            android:background="@drawable/roundbtnviolet"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="24"
@@ -79,7 +78,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
-            android:background="@drawable/roundbtnviolet"
+            android:background="@drawable/roundbutton"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="47"
@@ -111,96 +110,42 @@
     <LinearLayout
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:weightSum="10">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="@font/jalnan"
             android:textSize="29dp"
-            android:text="시드 24층"
+            android:text="시드 47층"
             android:gravity="center"
             android:background="@drawable/roundbutton"
+            android:layout_marginBottom="10dp"
             />
-        <androidx.appcompat.widget.SearchView
-
-            android:layout_marginTop="2dp"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/border"
-            app:queryHint="힌트 검색(예: 마을이름,설명)"
-            app:iconifiedByDefault="false"
+            android:text="맵 투명 발판 가이드"
+            android:gravity="center"
+            android:textSize="40dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="주황버섯이 있는 위치가 스위치입니다!"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:src="@drawable/seed47"
+
             />
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/border"
-            android:layout_marginBottom="2dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/less"
-
-
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/jalnan"
-                android:textSize="10dp"
-                android:text="리스항구"
-
-
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="푸른빛 바다가 보이는 부둣가에서 갈매기가 날아다니는 것을 바라보고 있는 느낌이 들어."
-
-                />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/border"
-            android:layout_marginBottom="2dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/perion"
-
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/jalnan"
-                android:textSize="10dp"
-                android:text="페리온"
-
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="황량한 바람이 부는 황무지 한가운데, 비장한 전투 부족과 마주친 느낌이 들어."
-                />
-
-        </LinearLayout>
     </LinearLayout>
 
 
-
-
 </LinearLayout>
-
-<!--힌트를 검색해서 노래를 찾는 화면-->
-<!--리니어 레이아웃으로 구성-->
-<!--스크롤뷰 사용하지말라고해서 일단은 보류-->
