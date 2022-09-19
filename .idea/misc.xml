@@ -15,9 +15,11 @@
         <entry key="app/src/main/res/layout/main.xml" value="0.20933329264322917" />
         <entry key="app/src/main/res/layout/mulung_helper.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/schedule.xml" value="0.31705729166666663" />
+        <entry key="app/src/main/res/layout/seed24.xml" value="0.25" />
         <entry key="app/src/main/res/layout/seed_helper.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/seedtwentythree.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/test.xml" value="0.28229166666666666" />
-        <entry key="app/src/main/res/layout/timer.xml" value="0.19389139811197917" />
+        <entry key="app/src/main/res/layout/timer.xml" value="0.25" />
         <entry key="app/src/main/res/layout/weekly_boss.xml" value="0.335" />
         <entry key="app/src/main/res/layout/weekly_quest.xml" value="0.28229166666666666" />
       </map>
