@@ -34,8 +34,9 @@
         app:layout_constraintRight_toLeftOf="@id/일일보스"
         android:layout_marginTop="40dp"
         app:layout_constraintHorizontal_chainStyle="spread"
-
         >
+
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"

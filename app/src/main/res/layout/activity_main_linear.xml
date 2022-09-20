@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainimage"
+    >
+<!--버티컬 속성 사용-->
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jalnan"
+        android:text="메할일 체크리스트"
+        android:textColor="#FC86D1"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+<!--그라비티 속성 사용-->
+<!--    마진40 사용-->
+    
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/bordertext"
+        >
+<!--        중첩된 형태를 리니어레이아웃만으로 만들기위에 
+ 리니어레이아웃으로 아이템을 그룹지어줌-->
+<!--        레이아웃 그라비티 속성 사용-->
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:marginTop="20dp"
+            android:text="LOGIN"
+            android:textColor="#FC86D1"
+            android:textSize="35dp"
+            android:layout_weight="1"
+            />
+<!--        비율 맞춰주기위해 가중치사용-->
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:hint="아이디"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:hint="비밀번호"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"
+            android:text="확인"
+            android:layout_marginBottom="20dp"
+            />
+<!--        가중치를 이용해 비율을 맞추고 맨위 맨아래 마진으로 간격만들어줌-->
+
+        
+        
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/로그인2"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/logo" />
+
+<!--    리니어가 확실히 편하긴함-->
+
+    
+    
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimage"
+    >
+
+    <TextView
+        android:id="@+id/제목"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/jalnan"
+        android:text="메할일 체크리스트"
+        android:textColor="#FC86D1"
+        android:textSize="30dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/로그인배경"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:background="@drawable/bordertext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/제목"
+        />
+<!--센터인패런트 속성으로 중앙으로 보내고 벨로우 속성으로 제목아래에 위치하게하고-->
+<!--    마진으로 여백줌-->
+<!--    상대적인 위치결정을 위해 아이디기입-->
+<!--    리니어와 다르게 뷰중첩을 안해서 손이 덜가는 장점이있었음-->
+    <TextView
+        android:id="@+id/로그인텍스트"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:marginTop="30dp"
+        android:text="LOGIN"
+        android:textColor="#FC86D1"
+        android:textSize="35dp"
+        android:layout_alignTop="@id/로그인배경"
+
+        />
+
+</RelativeLayout>
