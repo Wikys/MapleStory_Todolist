@@ -168,14 +168,14 @@
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_alignBottom="@id/에델슈타인바탕"
                 android:layout_alignTop="@id/에델슈타인바탕"
-                android:src="@drawable/garodung"
-                />
+                android:layout_alignBottom="@id/에델슈타인바탕"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/garodung" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

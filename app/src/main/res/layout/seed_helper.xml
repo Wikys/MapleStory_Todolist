@@ -112,7 +112,7 @@
         android:layout_width="350dp"
         android:layout_height="match_parent"
 
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
@@ -125,10 +125,6 @@
 
 
             />
-
-
-
-
     </LinearLayout>
 
 

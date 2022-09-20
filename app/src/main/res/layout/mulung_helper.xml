@@ -13,9 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:textColor="@color/purple_500"
-
         />
-
 
     <ToggleButton
         android:id="@+id/시작"
@@ -24,7 +22,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-
         android:textOff="시작하기"
         android:textOn="중단" />
 
@@ -104,6 +101,9 @@
 <!--        텍스트뷰 생성-->
 
 <!--        사용가능 레이아웃 : 리니어, 랠러티브, 컨스트-->
+
+
+
 
     </FrameLayout>
 </RelativeLayout>
