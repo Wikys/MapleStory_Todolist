@@ -38,12 +38,53 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/jalnan"
         android:gravity="center"
-        android:marginTop="30dp"
         android:text="LOGIN"
         android:textColor="#FC86D1"
         android:textSize="35dp"
         android:layout_alignTop="@id/로그인배경"
-
+        android:layout_marginTop="20dp"
         />
+    <EditText
+        android:id="@+id/아이디"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="아이디"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/로그인텍스트"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/비밀번호"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/아이디"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="비밀번호" />
+<!--    컨스트보다 쓰는속성이 적긴한데 마진으로 인해서 간격이 직관적이지가않음(깔끔하게 떨어지는지 확인불가)-->
+<!--    위치가 올바르게 정렬됐는지 알수가없음(컨스트의 경우엔 체인스타일로 이쁘게 정렬가능)-->
+<!--    리니어와 비교하면 가중치속성을 사용하지못해 직접 크기를 설정하는 불편함과 이 크기로 설정했을때-->
+<!--    이쁘게 떨어지는지 모르겠어서 눈대중으로 함-->
+    <Button
+        android:id="@+id/확인버튼"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundbutton"
+        android:text="확인"
+        android:layout_below="@id/비밀번호"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/확인버튼"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/logo" />
+
+
 
 </RelativeLayout>

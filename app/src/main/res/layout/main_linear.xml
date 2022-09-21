@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimage"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/제목"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/jalnan"
+        android:text="메인 메뉴"
+        android:textColor="#FC86D1"
+        android:textSize="40dp"
+        android:gravity="center"
+
+        />
+<!--    컨스트는 위드를 랩컨텐트로 해도 제약으로 가운대정렬이 가능한데-->
+<!--    리니어는 매치패런트로 크기를 죽 늘려놓고 그라비티 옵션으로 내용물을 가운대 정렬 해야함-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+
+    android:layout_marginTop="40dp"
+    android:orientation="horizontal"
+    >
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1.3"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/dq"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="일일 퀘스트"
+            android:textSize="20dp"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1.3"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/vonvon"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="일일 보스"
+            android:textSize="20dp"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        >
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.3"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/wq"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="주간 퀘스트"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.3"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/balck_mage"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="주간 보스"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.3"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        >
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.3"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/wealth_acquisition_potion"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="재획 타이머"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.3"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/calender"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="일정표"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        >
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.3"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/bordertext"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="시드 도우미"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.3"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/bordertext"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="무릉 도우미"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.3"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+<!--    레이아웃 버튼을 레이아웃으로 구성해야하고 그걸 묶어둘 레이아웃이 하나가 더들어가야해서-->
+<!--    중첩이 심해져 코드가독성이 매우 떨어지게됨-->
+
+<!--    레이아웃 특성상 버튼위에 아이템들을 올리는것이 불가능해서 부득이하게 리니어 레이아웃-->
+<!--    중첩을 통해 아이템을 겹침 장점은 가중치 옵션으로 아이템들을 이쁘게 정렬이가능?-->
+
+<!--아이템 사이사이 빈공간은 마진으로 채워도 상관은없으나 스페이스뷰를넣어 가중치 처리 하였음-->
+<!--(크기를 정하는데 정확한 수치를 생각하지않고 모양을 만들수있어서 편리함)-->
