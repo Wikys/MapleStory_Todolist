@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimage">
+
+    <TextView
+        android:id="@+id/제목"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jalnan"
+        android:text="일일 보스"
+        android:textColor="@color/purple_200"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/자쿰"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/제목"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/zakum" />
+
+    <ImageView
+        android:id="@+id/힐라"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/제목"
+        android:layout_toRightOf="@id/자쿰"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/hila" />
+    <ImageView
+        android:id="@+id/혼테일"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hontail"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_below="@id/제목"
+        android:layout_toRightOf="@id/힐라"
+        />
+    <ImageView
+        android:id="@+id/반레온"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/von_leon"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_below="@id/제목"
+        android:layout_toRightOf="@id/혼테일"
+        />
+
+<!--    버튼-->
+
+    <ToggleButton
+        android:id="@+id/자쿰버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/자쿰"
+        android:layout_marginLeft="40dp"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear" />
+
+    <ToggleButton
+        android:id="@+id/힐라버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/힐라"
+        android:layout_toRightOf="@id/자쿰버튼"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear" />
+    <ToggleButton
+        android:id="@+id/혼테일버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear"
+        android:layout_below="@id/혼테일"
+        android:layout_toRightOf="@id/힐라버튼"
+        />
+    <ToggleButton
+        android:id="@+id/반레온버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear"
+        android:layout_below="@id/반레온"
+        android:layout_toRightOf="@id/혼테일버튼"
+        />
+<!--    2번째줄-->
+    <ImageView
+        android:id="@+id/아카이럼"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/자쿰버튼"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/arkarium" />
+
+    <ImageView
+        android:id="@+id/블러디퀸"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/힐라버튼"
+        android:layout_toRightOf="@id/아카이럼"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/bloody_queen" />
+    <ImageView
+        android:id="@+id/피에르"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/혼테일버튼"
+        android:layout_toRightOf="@id/힐라"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/pierre" />
+
+    <ImageView
+        android:id="@+id/반반"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/반레온버튼"
+        android:layout_toRightOf="@id/피에르"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/vonvon" />
+
+<!--    2번째줄 버튼-->
+
+    <ToggleButton
+        android:id="@+id/아카이럼버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/아카이럼"
+        android:layout_marginLeft="40dp"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear" />
+
+    <ToggleButton
+        android:id="@+id/블러디퀸버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/블러디퀸"
+        android:layout_toRightOf="@id/아카이럼버튼"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear" />
+
+    <ToggleButton
+        android:id="@+id/피에르버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear"
+        android:layout_below="@id/피에르"
+        android:layout_toRightOf="@id/블러디퀸버튼"
+        />
+    <ToggleButton
+        android:id="@+id/반반버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear"
+        android:layout_below="@id/반반"
+        android:layout_toRightOf="@id/피에르버튼"
+        />
+<!--    3번째줄-->
+
+    <ImageView
+        android:id="@+id/카웅"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/아카이럼버튼"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/kaung" />
+    <ImageView
+        android:id="@+id/매그너스"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/블러디퀸버튼"
+        android:layout_toRightOf="@id/카웅"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/magnus" />
+    <ImageView
+        android:id="@+id/핑크빈"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/피에르버튼"
+        android:layout_toRightOf="@id/매그너스"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/pinkbean" />
+    <ImageView
+        android:id="@+id/벨룸"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/반반버튼"
+        android:layout_toRightOf="@id/핑크빈"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/vellum" />
+<!--    3번째줄 버튼-->
+
+    <ToggleButton
+        android:id="@+id/카웅버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/카웅"
+        android:layout_marginLeft="40dp"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear" />
+
+    <ToggleButton
+        android:id="@+id/매그너스버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/매그너스"
+        android:layout_toRightOf="@id/카웅버튼"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear" />
+
+    <ToggleButton
+        android:id="@+id/핑크빈버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/핑크빈"
+        android:layout_toRightOf="@id/매그너스버튼"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear" />
+    <ToggleButton
+        android:id="@+id/벨룸버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/벨룸"
+        android:layout_toRightOf="@id/핑크빈버튼"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear" />
+
+
+</RelativeLayout>
+
+<!--순서대로 옆에 쌓이는 리니어와 달리 복사붙여넣기로 만들고있는데도-->
+<!--매번 위치지정을 다시해줘야해서 불편-->

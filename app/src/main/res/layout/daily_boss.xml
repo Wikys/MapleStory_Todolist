@@ -82,7 +82,6 @@
         <ToggleButton
             android:layout_width="0dp"
             android:layout_height="50dp"
-
             android:layout_weight="1"
             android:clickable="true"
             android:gravity="center"
@@ -359,3 +358,5 @@
 
 </LinearLayout>
 
+<!--레이아웃을 여러번 추가해서 사용해야했지만 가중치기능으로 매우편하게 넓이를-->
+<!--조정할수가있었다-->

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mainimage">
+    <TextView
+        android:id="@+id/제목"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jalnan"
+        android:text="일일 보스"
+        android:textColor="@color/purple_200"
+        android:textSize="40dp"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/뷰"
+        />
+    <View
+        android:id="@+id/뷰"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintTop_toBottomOf="@id/제목"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@"
+        />
+    <ImageView
+        android:id="@+id/자쿰"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/zakum"
+        app:layout_constraintTop_toTopOf="@id/뷰"
+        app:layout_constraintLeft_toLeftOf="@id/뷰"
+        app:layout_constraintRight_toLeftOf="@id/힐라"
+        app:layout_constraintBottom_toTopOf="@id/자쿰버튼"
+        app:layout_constraintHorizontal_chainStyle="packed"
+
+        />
+    <ImageView
+        android:id="@+id/힐라"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/hila"
+        app:layout_constraintTop_toTopOf="@id/뷰"
+        app:layout_constraintLeft_toRightOf="@id/자쿰"
+        app:layout_constraintBottom_toTopOf="@id/힐라버튼"
+        app:layout_constraintRight_toLeftOf="@id/혼테일"
+        />
+    <ImageView
+        android:id="@+id/혼테일"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hontail"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        app:layout_constraintTop_toTopOf="@id/뷰"
+        app:layout_constraintLeft_toRightOf="@id/힐라"
+        app:layout_constraintBottom_toTopOf="@id/혼테일버튼"
+        app:layout_constraintRight_toLeftOf="@id/반레온"
+        />
+    <ImageView
+        android:id="@+id/반레온"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/von_leon"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        app:layout_constraintTop_toTopOf="@id/뷰"
+        app:layout_constraintLeft_toRightOf="@id/혼테일"
+        app:layout_constraintBottom_toTopOf="@id/반레온버튼"
+        app:layout_constraintRight_toRightOf="@id/뷰"
+        />
+
+<!--    첫째줄버튼-->
+
+    <ToggleButton
+        android:id="@+id/자쿰버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/자쿰"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear"
+        app:layout_constraintTop_toBottomOf="@id/자쿰"
+        app:layout_constraintLeft_toLeftOf="@id/뷰"
+        app:layout_constraintRight_toLeftOf="@id/힐라버튼"
+        app:layout_constraintBottom_toBottomOf="@id/뷰"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        />
+    <ToggleButton
+        android:id="@+id/힐라버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear"
+        app:layout_constraintTop_toBottomOf="@id/힐라"
+        app:layout_constraintLeft_toRightOf="@id/자쿰버튼"
+        app:layout_constraintRight_toLeftOf="@id/혼테일버튼"
+        app:layout_constraintBottom_toBottomOf="@id/뷰"
+        />
+    <ToggleButton
+        android:id="@+id/혼테일버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear"
+        app:layout_constraintTop_toBottomOf="@id/혼테일"
+        app:layout_constraintLeft_toRightOf="@id/힐라버튼"
+        app:layout_constraintRight_toLeftOf="@id/반레온버튼"
+        app:layout_constraintBottom_toBottomOf="@id/뷰"
+        />
+    <ToggleButton
+        android:id="@+id/반레온버튼"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="도전가능"
+        android:textOn="Clear"
+        app:layout_constraintTop_toBottomOf="@id/반레온"
+        app:layout_constraintLeft_toRightOf="@id/혼테일버튼"
+        app:layout_constraintRight_toRightOf="@id/뷰"
+        app:layout_constraintBottom_toBottomOf="@id/뷰"
+        />
+<!--    두번째줄-->
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--연결만 해두면 알아서 스프레드 체인으로 간격을 알맞게 잡아줘서-->
+<!--마진기능을 굳이 안써도 되는 장점이있다-->
+<!--팩체인 속성을 이용해서 가운대로 몰아놨지만 -->
+<!--리니어로 하는게 훨씬 편했던거같다-->

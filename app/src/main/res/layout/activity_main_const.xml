@@ -17,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/로그인배경"
         />
+
 <!--    랠러티브와 다르게 최소 제약속성을 3개는 걸어줘야 오류가 안남-->
 <!--    손이많이감?-->
 <!--    렐러티브였으면 벨로우쓰고 그라비티로 가운대정렬하고 마진으로 높이맞추면 끝-->
