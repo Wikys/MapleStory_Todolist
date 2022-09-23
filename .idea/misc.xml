@@ -16,6 +16,7 @@
         <entry key="app/src/main/res/layout/activity_main_relative.xml" value="0.25" />
         <entry key="app/src/main/res/layout/daily_boss.xml" value="0.335" />
         <entry key="app/src/main/res/layout/daily_quest.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/daily_quest_const.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/daily_quest_linear.xml" value="0.25" />
         <entry key="app/src/main/res/layout/daily_quest_relative.xml" value="0.25" />
         <entry key="app/src/main/res/layout/main.xml" value="0.20933329264322917" />
