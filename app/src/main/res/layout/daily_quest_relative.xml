@@ -38,8 +38,59 @@
         android:layout_below="@id/소멸의여로이미지"
         android:layout_marginLeft="30dp"
         />
+    <ToggleButton
+        android:id="@+id/소멸의여로버튼"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:textOff="미완료"
+        android:textOn="Clear"
+        android:fontFamily="@font/jalnan"
+        android:layout_below="@id/소멸의여로텍스트"
+        android:layout_marginLeft="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/츄츄아일랜드이미지"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/chuchu_island"
+        android:layout_below="@id/일일퀘스트"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:id="@+id/츄츄아일랜드텍스트"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="츄츄 아일랜드"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:layout_below="@id/츄츄아일랜드이미지"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        />
+    <ToggleButton
+        android:id="@+id/츄츄아일랜드버튼"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:textOff="미완료"
+        android:textOn="Clear"
+        android:fontFamily="@font/jalnan"
+        android:layout_below="@id/츄츄아일랜드텍스트"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        />
+
 
 </RelativeLayout>
 
-<!--리니어와달리 레이아웃을 중첩하지않아 코드가독성은 조금 좋아졌으나-->
+<!--리니어와달리 레이아웃을 중첩하지않아 코드작성 자체는 리니어에비해 편했으나
+레이아웃으로 공간을 나눠주지않아서 코드가독성이 매우 떨어짐-->
 <!--다른 화면들과 마찬가지로 위치를 거의(마진)직접 잡아줘야해서 불편-->
