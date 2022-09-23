@@ -4,19 +4,19 @@
     android:layout_height="match_parent"
     android:background="@drawable/mainimage"
     >
+
     <TextView
         android:id="@+id/제목"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:fontFamily="@font/jalnan"
-        android:text="메인 메뉴"
-        android:textColor="#FC86D1"
-        android:textSize="40dp"
-        android:gravity="center"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        />
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:text="메인 메뉴"
+        android:textColor="#FC86D1"
+        android:textSize="40dp" />
 
 <!--    이부분은 리니어나 랠러티브나 컨스트나 차이없음-->
     <Button
@@ -61,14 +61,14 @@
         android:layout_marginRight="50dp"
         android:stateListAnimator="@null"
         />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="70dp"
-        android:src="@drawable/vonvon"
         android:layout_alignLeft="@id/일일보스버튼"
-        android:layout_alignRight="@id/일일보스버튼"
         android:layout_alignTop="@id/일일보스버튼"
-        />
+        android:layout_alignRight="@id/일일보스버튼"
+        android:src="@drawable/vonvon" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -92,14 +92,14 @@
         android:layout_marginLeft="50dp"
         android:stateListAnimator="@null"
         />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="70dp"
-        android:src="@drawable/wq"
         android:layout_alignLeft="@id/주간퀘스트버튼"
-        android:layout_alignRight="@id/주간퀘스트버튼"
         android:layout_alignTop="@id/주간퀘스트버튼"
-        />
+        android:layout_alignRight="@id/주간퀘스트버튼"
+        android:src="@drawable/wq" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -112,19 +112,159 @@
         android:gravity="center"/>
 
     <Button
-        android:id="@+id/일일보스버튼"
+        android:id="@+id/주간보스버튼"
         android:layout_width="130dp"
         android:layout_height="100dp"
         android:background="@drawable/roundbutton"
         android:layout_marginTop="40dp"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/제목"
+        android:layout_below="@id/일일보스버튼"
         android:layout_marginRight="50dp"
         android:stateListAnimator="@null"
         />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@drawable/balck_mage"
+        android:layout_alignLeft="@id/주간보스버튼"
+        android:layout_alignRight="@id/주간보스버튼"
+        android:layout_alignTop="@id/주간보스버튼"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/주간보스버튼"
+        android:layout_alignRight="@id/주간보스버튼"
+        android:layout_alignBottom="@id/주간보스버튼"
+        android:fontFamily="@font/jalnan"
+        android:text="주간 보스"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/재획타이머버튼"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:background="@drawable/roundbutton"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentleft="true"
+        android:layout_below="@id/주간퀘스트버튼"
+        android:layout_marginLeft="50dp"
+        android:stateListAnimator="@null"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@id/재획타이머버튼"
+        android:layout_alignTop="@id/재획타이머버튼"
+        android:layout_alignRight="@id/재획타이머버튼"
+        android:src="@drawable/wealth_acquisition_potion" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/재획타이머버튼"
+        android:layout_alignRight="@id/재획타이머버튼"
+        android:layout_alignBottom="@id/재획타이머버튼"
+        android:fontFamily="@font/jalnan"
+        android:text="재획타이머"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/일정표버튼"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:background="@drawable/roundbutton"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/주간보스버튼"
+        android:layout_marginRight="50dp"
+        android:stateListAnimator="@null"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@drawable/calender"
+        android:layout_alignLeft="@id/일정표버튼"
+        android:layout_alignRight="@id/일정표버튼"
+        android:layout_alignTop="@id/일정표버튼"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/일정표버튼"
+        android:layout_alignRight="@id/일정표버튼"
+        android:layout_alignBottom="@id/일정표버튼"
+        android:fontFamily="@font/jalnan"
+        android:text="일정표"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/시드도우미버튼"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:background="@drawable/roundbutton"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentleft="true"
+        android:layout_below="@id/재획타이머버튼"
+        android:layout_marginLeft="50dp"
+        android:stateListAnimator="@null"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@id/시드도우미버튼"
+        android:layout_alignTop="@id/시드도우미버튼"
+        android:layout_alignRight="@id/시드도우미버튼"
+        android:src="@drawable/bordertext" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/시드도우미버튼"
+        android:layout_alignRight="@id/시드도우미버튼"
+        android:layout_alignBottom="@id/시드도우미버튼"
+        android:fontFamily="@font/jalnan"
+        android:text="시드도우미"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/무릉도우미버튼"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:background="@drawable/roundbutton"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/일정표버튼"
+        android:layout_marginRight="50dp"
+        android:stateListAnimator="@null"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@drawable/bordertext"
+        android:layout_alignLeft="@id/무릉도우미버튼"
+        android:layout_alignRight="@id/무릉도우미버튼"
+        android:layout_alignTop="@id/무릉도우미버튼"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/무릉도우미버튼"
+        android:layout_alignRight="@id/무릉도우미버튼"
+        android:layout_alignBottom="@id/무릉도우미버튼"
+        android:fontFamily="@font/jalnan"
+        android:text="무릉도우미"
+        android:textSize="20dp"
+        android:gravity="center"/>
 
 
 </RelativeLayout>
 
 <!--체인을 통한 정렬이나 리니어의 가중치기능을 사용하지못해 일일히 자리를 지정해주고-->
 <!--마진을 줘야하는 불편함이 있었음-->
+<!--대신 랠러티브 레이아웃의 뷰를 겹칠수있는 특성으로 리니어와 다르게 레이아웃을 중첩하지않고 버튼안에-->
+<!--뷰를 중첩시킬수 있었음(가독성 증가)-->

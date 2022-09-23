@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimage"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:id="@+id/타이틀"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="재획 타이머"
+        android:textColor="#FC86D1"
+        android:textSize="40dp"
+        android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/재획비"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/wealth_acquisition_potion"
+        android:layout_gravity="center"
+        />
+    <ProgressBar
+        android:id="@+id/타이머"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="7200"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <ToggleButton
+        android:id="@+id/타이머토글"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="재획 시작"
+        android:textOn="재획 중지"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+        <ImageView
+            android:id="@+id/정펜"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/exp_pendent"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/경축비"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/exp_postion"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/경뿌"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/exp_rate"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+        <ImageView
+            android:id="@+id/경쿠"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/exp_rate_two"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/홀심"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/holy_symbol"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!--    밑에 아이콘을 가로정렬하고 이쁘게 정렬(가중치)하는데 편함-->
+    <!--세로정렬할때도 마찬가지로 가중치옵션을 이용해서 레이아웃의 공간을 깔끔하게 나눌수있었음-->
+    <!--    하지만 가로정렬로 바꾸는 과정에서 새로운 레이아웃 중첩이 필요했고-->
+    <!--    그 다음줄로 넘기는대에도 새로운 레이아웃이 추가로 중첩될필요가 있었음(불편)-->
+    <!--    간단한 레이아웃이라 지금은 상관없곘지만 레이아웃이 복잡해질경우-->
+    <!--    매우 가독성이 떨어질가능성이있음-->
+

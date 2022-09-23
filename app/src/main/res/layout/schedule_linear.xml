@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mainimage"
+    android:orientation="vertical">
+    <Switch
+        android:id="@+id/알람"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람"
+        android:layout_gravity="right"
+        />
+
+    <TextView
+        android:id="@+id/제목"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="오늘의 이슈!"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+        />
+    <CalendarView
+        android:id="@+id/일정"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:firstDayOfWeek="5"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/요약"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/border"
+        android:text="요약 \n오늘 @하세요~"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/일정추가"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:layout_gravity="right"
+        app:srcCompat="@android:drawable/ic_input_add"
+        />
+
+</LinearLayout>
+
+    <!--이렇게 간단하게 뷰몇개 나열돼있는 레이아웃은 리니어가 제일 편하긴한듯-->
+    <!--버티컬로 맞춰놓고 마진설정만 뚝딱하면 끝나서-->
+    <!--하지만 플로팅버튼을 겹치게 만들어야 하는데 리니어 레이아웃으로는 불가능했음!-->
+

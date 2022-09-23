@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimage">
+
+    <TextView
+        android:id="@+id/타이틀"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="재획 타이머"
+        android:textColor="#FC86D1"
+        android:textSize="40dp"
+        android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/재획비"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/wealth_acquisition_potion"
+        android:layout_below="@id/타이틀"
+        android:layout_centerInParent="true"
+        />
+    <ProgressBar
+        android:id="@+id/타이머"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="7200"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/재획비"
+        android:layout_centerInParent="true"
+        />
+    <ToggleButton
+        android:id="@+id/타이머토글"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="재획 시작"
+        android:textOn="재획 중지"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/타이머"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        />
+    <!--    상대적인 위치지정은 좋은데 거리조절을 자동으로 해주지않아서 (가중치x체인x)-->
+    <!--    마진으로 일일히 거리를 조정해줘야하는 단점존재-->
+    <ImageView
+        android:id="@+id/정펜"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/exp_pendent"
+        android:layout_below="@id/타이머토글"
+        android:layout_marginLeft="40dp"
+        />
+    <ImageView
+        android:id="@+id/경축비"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/exp_postion"
+        android:layout_below="@id/타이머토글"
+        android:layout_toRightOf="@id/정펜"
+        android:layout_marginLeft="60dp"
+        />
+    <ImageView
+        android:id="@+id/경뿌"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/exp_rate"
+        android:layout_below="@id/타이머토글"
+        android:layout_toRightOf="@id/경축비"
+        android:layout_marginLeft="60dp"
+        />
+    <ImageView
+        android:id="@+id/경쿠"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/exp_rate_two"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/정펜"
+        />
+    <ImageView
+        android:id="@+id/홀심"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/holy_symbol"
+        android:layout_below="@id/경뿌"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="110dp"
+        android:layout_toRightOf="@id/경쿠"
+        />
+
+</RelativeLayout>
+    <!--이런 이미지 배치를 할때 렐러티브로 배치할경우 (가중치옵션을 못쓰니) -->
+    <!--이미지 크기설정을 직접해야하고 간격을 직접 재서 써넣어야해서 불편함이 많았다-->
+    <!--간단한 배치니만큼 이부분은 리니어를 중첩해서 썻으면 편했을것같다-->
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mainimage">
+    <Switch
+        android:id="@+id/알람"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/제목"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="오늘의 이슈!"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+        android:layout_below="@id/알람"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <CalendarView
+        android:id="@+id/일정"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/제목"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:firstDayOfWeek="5" />
+    <TextView
+        android:id="@+id/요약"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/border"
+        android:text="요약 \n오늘 @하세요~"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/일정"
+        android:layout_centerInParent="true"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/일정추가"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+
+
+        />
+
+</RelativeLayout>
+
+    <!--컨스트와의 차이점이 딱히없고 오히려 기능이 부족한느낌 왜?-->
+    <!--단순히 밑으로 쌓이기만하는식의 레이아웃이라 마진으로 간격만 조절해주면되는-->
+    <!--리니어가 좀더 편하긴했지만 맨아래쪽에 버튼이 겹치는 효과를 주기위해서는-->
+    <!--랠러티브레이아웃을 사용할필요가 있었음 -->
+

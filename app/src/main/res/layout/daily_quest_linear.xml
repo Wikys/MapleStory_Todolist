@@ -14,21 +14,287 @@
         android:textSize="30dp"
         android:gravity="center"
         android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
         />
 
     <LinearLayout
+        android:id="@+id/그룹1"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
 
         <ImageView
-            android:layout_width="0dp"
+            android:id="@+id/소멸의여로"
+            android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_weight="1"
             android:background="@drawable/vanishing_journey" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="소멸의 여로"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                />
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5" />
+
+
+        <LinearLayout
+            android:id="@+id/츄츄아일랜드"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:background="@drawable/chuchu_island" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="츄츄 아일랜드"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                />
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5" />
+
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/그룹2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/레헬른"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:background="@drawable/lachelein" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="레헬른"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                />
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5" />
+
+
+        <LinearLayout
+            android:id="@+id/아르카나"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:background="@drawable/arcana" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아르카나"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                />
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/그룹3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+
+        >
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/모라스"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:background="@drawable/morass" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="모라스"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                />
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5" />
+
+
+        <LinearLayout
+            android:id="@+id/에스페라"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:background="@drawable/esfera" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="에스페라"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                />
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5" />
+    </LinearLayout>
 
 </LinearLayout>
+<!--전체 레이아웃 리니어 세로로 깔고-->
+<!--중첩리니어 가로로 깔고 세로리니어 이미지 텍스트 버튼 뭉쳐서 만들고 가중치-->
+<!--그아래에 가로리니어 하나더만들어서 죽죽만들어나가기-->
+
+<!--이미지 쭉깔고 텍스트 쭉깔고 버튼쭉깔고 하는식으로 갔으면-->
+<!--좀더 편하기는 했을거같은데 이렇게되면 가독성이 너무 떨어짐 -->
+<!--이런대선 리니어가 좀 별로인듯함-->
