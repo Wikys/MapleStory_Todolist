@@ -88,7 +88,6 @@
                 android:paddingLeft="2dp"
                 android:paddingRight="2dp"
                 android:layout_weight="1"
-
                 />
             <ImageView
                 android:id="@+id/주간파풀라투스"
@@ -98,7 +97,6 @@
                 android:paddingLeft="2dp"
                 android:paddingRight="2dp"
                 android:layout_weight="1"
-
                 />
             <ImageView
                 android:id="@+id/주간핑크빈"
@@ -108,7 +106,6 @@
                 android:paddingLeft="2dp"
                 android:paddingRight="2dp"
                 android:layout_weight="1"
-
                 />
             <ImageView
                 android:id="@+id/주간매그너스"
@@ -118,7 +115,6 @@
                 android:paddingLeft="2dp"
                 android:paddingRight="2dp"
                 android:layout_weight="1"
-
                 />
 
 
@@ -132,7 +128,6 @@
             <ToggleButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-
                 android:layout_weight="1"
                 android:clickable="true"
                 android:gravity="center"
@@ -143,7 +138,6 @@
             <ToggleButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-
                 android:layout_weight="1"
                 android:clickable="true"
                 android:gravity="center"
@@ -197,7 +191,6 @@
                 android:paddingLeft="2dp"
                 android:paddingRight="2dp"
                 android:layout_weight="1"
-
                 />
             <ImageView
                 android:id="@+id/주간블러디퀸"
@@ -207,7 +200,6 @@
                 android:paddingLeft="2dp"
                 android:paddingRight="2dp"
                 android:layout_weight="1"
-
                 />
             <ImageView
                 android:id="@+id/주간피에르"
@@ -217,7 +209,6 @@
                 android:paddingLeft="2dp"
                 android:paddingRight="2dp"
                 android:layout_weight="1"
-
                 />
             <ImageView
                 android:id="@+id/주간반반"
@@ -227,7 +218,6 @@
                 android:paddingLeft="2dp"
                 android:paddingRight="2dp"
                 android:layout_weight="1"
-
                 />
             <ImageView
                 android:id="@+id/주간벨룸"
@@ -237,14 +227,12 @@
                 android:paddingLeft="2dp"
                 android:paddingRight="2dp"
                 android:layout_weight="1"
-
                 />
         </TableRow>
         <TableRow>
             <ToggleButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-
                 android:layout_weight="1"
                 android:clickable="true"
                 android:gravity="center"
@@ -255,7 +243,6 @@
             <ToggleButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-
                 android:layout_weight="1"
                 android:clickable="true"
                 android:gravity="center"
@@ -266,7 +253,6 @@
             <ToggleButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-
                 android:layout_weight="1"
                 android:clickable="true"
                 android:gravity="center"
@@ -277,7 +263,6 @@
             <ToggleButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-
                 android:layout_weight="1"
                 android:clickable="true"
                 android:gravity="center"
@@ -288,7 +273,6 @@
             <ToggleButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-
                 android:layout_weight="1"
                 android:clickable="true"
                 android:gravity="center"
@@ -306,8 +290,6 @@
                 android:paddingLeft="2dp"
                 android:paddingRight="2dp"
                 android:layout_weight="1"
-
-
                 />
             <ImageView
                 android:id="@+id/주간데미안"

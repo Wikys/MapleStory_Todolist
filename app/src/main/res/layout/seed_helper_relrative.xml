@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/seedback">
+    <TextView
+        android:id="@+id/버튼타이틀"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/roundbtnwhite"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textColor="@color/teal_700"
+        android:text="시드 층"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:id="@+id/시드23"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/버튼타이틀"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="23"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드24"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드23"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="24"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드36"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드24"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="36"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드39"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드36"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="39"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드47"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드39"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="47"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드48"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드47"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="48"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드49"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드48"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="49"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/jalnan"
+        android:textColor="@color/white"
+        android:textSize="29dp"
+        android:text="공략을 보고싶은 층을 선택해주세요"
+        android:gravity="center"
+        android:layout_toRightOf="@id/시드39"
+        />
+
+</RelativeLayout>
+
+<!--가중치나 체인을 이용해 골고루 펼쳤으면 만드는데
+시간이 훨씬줄었을텐데 아쉬움이있다-->
+<!--(왼쪽버튼들)-->
