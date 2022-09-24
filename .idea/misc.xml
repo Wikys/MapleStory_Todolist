@@ -45,8 +45,8 @@
         <entry key="app/src/main/res/layout/timer_const.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/timer_linear.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/timer_relative.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/weekly_boss.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/weekly_boss_linear.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/weekly_boss.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/weekly_boss_linear.xml" value="0.25" />
         <entry key="app/src/main/res/layout/weekly_quest.xml" value="0.28229166666666666" />
       </map>
     </option>
