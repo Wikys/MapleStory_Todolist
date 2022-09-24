@@ -27,6 +27,7 @@
                 android:layout_weight="1"
                 android:layout_marginLeft="30dp"
                 />
+        dd
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/노말"
