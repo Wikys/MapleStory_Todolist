@@ -207,6 +207,7 @@
         android:paddingLeft="2dp"
         android:paddingRight="2dp"
         android:src="@drawable/kaung" />
+
     <ImageView
         android:id="@+id/매그너스"
         android:layout_width="80dp"
