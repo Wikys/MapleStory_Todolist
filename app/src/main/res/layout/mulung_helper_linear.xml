@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mulung"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/타이틀"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="무릉 도우미"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/purple_500"
+        />
+    <TextView
+        android:id="@+id/준비"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="#8B000000"
+        android:text="도핑을 확인해주세요\n\n길,우뿌\n익스트림레드/블루/그린\n유니온의 힘\n영웅의 메아리\nMVP슈퍼파워\n전영비+고보킬,반빨별+대영비\n노블\n9,10랩 스탯물약,5랩 공마물약\n아기용의 이유식"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/teal_700"
+        android:paddingTop="15dp"
+        />
+    <TextView
+        android:id="@+id/타이머"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="15:00"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <ProgressBar
+        android:id="@+id/시각타이머"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="350dp"
+        android:layout_height="10dp"
+        android:progress="900"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/일정추가"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_input_add"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            />
+        <ToggleButton
+            android:id="@+id/시작"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textOff="시작하기"
+            android:textOn="중단"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+<!--리니어레이아웃은 중첩이나 세세한 위치조정을 하려면
+상황에따라서 많은 레이아웃의-->
+<!--중첩과 복잡한구조가 강제되서
+만드는데 시간이 오래걸리는 단점이 있었다-->

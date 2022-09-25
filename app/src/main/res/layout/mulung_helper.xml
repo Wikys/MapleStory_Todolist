@@ -48,22 +48,17 @@
         android:text="15:00"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="20dp"
-
-
-        />
+        android:textSize="20dp" />
 
     <ProgressBar
         android:id="@+id/시각타이머"
         style="?android:attr/progressBarStyleHorizontal"
-        android:progress="900"
         android:layout_width="350dp"
         android:layout_height="10dp"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="100dp"
-
-        />
+        android:progress="900" />
 
     <FrameLayout
         android:id="@+id/스테이터스"
@@ -72,8 +67,6 @@
         android:layout_below="@+id/타이틀"
         android:layout_above="@+id/타이머"
         android:layout_marginBottom="10dp"
-
-
         >
         <TextView
             android:id="@+id/준비"
@@ -81,7 +74,6 @@
             android:layout_height="match_parent"
             android:background="#8B000000"
             android:text="도핑을 확인해주세요\n\n길,우뿌\n익스트림레드/블루/그린\n유니온의 힘\n영웅의 메아리\nMVP슈퍼파워\n전영비+고보킬,반빨별+대영비\n노블\n9,10랩 스탯물약,5랩 공마물약\n아기용의 이유식"
-
             android:textAlignment="center"
             android:textSize="30dp"
             android:textColor="@color/teal_700"
@@ -93,7 +85,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="invisible"
-
             />
 <!--시작누르면 메모로 전환-->
 <!--플로팅버튼 누르면 층별전략 수정 가능, 시간별전략 수정가능 -->
