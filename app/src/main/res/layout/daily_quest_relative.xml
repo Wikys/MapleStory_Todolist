@@ -38,18 +38,18 @@
         android:layout_below="@id/소멸의여로이미지"
         android:layout_marginLeft="30dp"
         />
+
     <ToggleButton
         android:id="@+id/소멸의여로버튼"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:clickable="true"
-        android:gravity="center"
-        android:textOff="미완료"
-        android:textOn="Clear"
-        android:fontFamily="@font/jalnan"
         android:layout_below="@id/소멸의여로텍스트"
         android:layout_marginLeft="30dp"
-        />
+        android:clickable="true"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textOff="미완료"
+        android:textOn="Clear" />
 
     <ImageView
         android:id="@+id/츄츄아일랜드이미지"
@@ -229,6 +229,21 @@
         android:layout_marginRight="30dp"
         android:layout_alignParentRight="true"
         />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
 
 
 </RelativeLayout>
