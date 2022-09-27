@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/버튼타이틀"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/roundbtnwhite"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:textColor="@color/teal_700"
+        android:text="시드 층"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:id="@+id/시드23"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/버튼타이틀"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="23"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드24"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드23"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="24"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드36"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드24"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="36"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드39"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드36"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="39"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드47"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드39"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/jalnan"
+        android:text="47"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드48"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드47"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="48"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/시드49"
+        android:layout_width="60dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/시드48"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtnviolet"
+        android:fontFamily="@font/jalnan"
+        android:text="49"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/타이틀"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/버튼타이틀"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:text="시드 47층"
+        android:textSize="29dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/소제목"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="맵 투명 발판 가이드"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_below="@id/타이틀"
+        android:layout_toRightOf="@id/시드23"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주황버섯이 있는 위치가 스위치입니다!"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        @$@$
+        />@#@!@$
+
+</RelativeLayout>
