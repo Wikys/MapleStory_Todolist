@@ -12,8 +12,6 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:orientation="vertical"
-
-
         >
 
         <TextView
@@ -27,7 +25,6 @@
             android:text="시드 층"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-
             />
 
         <Button
@@ -95,7 +92,6 @@
             android:textSize="20dp"
             android:text="48"
             android:layout_marginBottom="5dp"/>
-
         <Button
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -123,7 +119,6 @@
             android:background="@drawable/roundbutton"
             />
         <androidx.appcompat.widget.SearchView
-
             android:layout_marginTop="2dp"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
@@ -176,15 +171,15 @@
                 android:layout_alignBottom="@id/에델슈타인바탕"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/garodung" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/에델슈타인바탕"
                 android:layout_centerHorizontal="true"
-                android:textColor="@color/white"
-                android:textSize="20dp"
                 android:text="가로등"
-                />
+                android:textColor="@color/white"
+                android:textSize="20dp" />
 
 
 
