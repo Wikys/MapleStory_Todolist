@@ -7,15 +7,17 @@
         android:id="@+id/버튼타이틀"
         android:layout_width="60dp"
         android:layout_height="30dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
         android:background="@drawable/roundbtnwhite"
         android:fontFamily="@font/jalnan"
         android:gravity="center"
+        android:textColor="@color/teal_700"
         android:text="시드 층"
-        android:textColor="@color/teal_700" />
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
     <Button
         android:id="@+id/시드23"
         android:layout_width="60dp"
@@ -36,7 +38,7 @@
         android:layout_below="@id/시드23"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="5dp"
-        android:background="@drawable/roundbutton"
+        android:background="@drawable/roundbtnviolet"
         android:fontFamily="@font/jalnan"
         android:text="24"
         android:textColor="@color/white"
@@ -62,7 +64,7 @@
         android:layout_below="@id/시드36"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="5dp"
-        android:background="@drawable/roundbtnviolet"
+        android:background="@drawable/roundbutton"
         android:fontFamily="@font/jalnan"
         android:text="39"
         android:textColor="@color/white"
@@ -106,7 +108,7 @@
         android:text="49"
         android:textColor="@color/white"
         android:textSize="20dp" />
-<!--    우측-->
+
     <TextView
         android:id="@+id/타이틀"
         android:layout_width="match_parent"
@@ -116,9 +118,8 @@
         android:background="@drawable/roundbutton"
         android:fontFamily="@font/jalnan"
         android:gravity="center"
-        android:text="시드 24층"
+        android:text="시드 39층"
         android:textSize="29dp" />
-
     <androidx.appcompat.widget.SearchView
         android:id="@+id/검색"
         android:layout_width="match_parent"
@@ -132,49 +133,91 @@
         android:background="@drawable/border"
         app:iconifiedByDefault="false"
         app:queryHint="힌트 검색(예: 마을이름,설명)" />
-
-    <View
-        android:id="@+id/리스항구"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
+    <TextView
+        android:id="@+id/골드비치질문"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="골드비치 리조트에 거주하는 잡화 상인 이름은?"
+        android:layout_marginLeft="4dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="4dp"
         android:layout_below="@id/검색"
         android:layout_toRightOf="@id/시드23"
-        android:background="@drawable/border" />
-
-    <ImageView
-        android:id="@+id/리스항구이미지"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/리스항구"
-        android:layout_alignTop="@id/리스항구"
-        android:layout_alignBottom="@id/리스항구"
-        android:background="@drawable/less" />
-    <TextView
-        android:id="@+id/리스항구텍스트"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:fontFamily="@font/jalnan"
-        android:textSize="10dp"
-        android:text="리스항구"
-        android:layout_alignTop="@id/리스항구이미지"
-        android:layout_toRightOf="@id/리스항구이미지"
-        android:layout_alignBottom="@id/리스항구"
+        />
+    <View
+        android:id="@+id/골드비치답"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/골드비치질문"
+        android:layout_toRightOf="@id/시드23"
         />
 
-    <TextView
-        android:id="@+id/리스항구텍스트2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/리스항구"
-        android:layout_alignBottom="@id/리스항구"
-        android:layout_toRightOf="@id/리스항구텍스트"
-        android:text="푸른빛 바다가 보이는 부둣가에서 갈매기가 날아다니는 것을 바라보고 있는 느낌이 들어." />
+    <Button
+        android:id="@+id/골드비치스크루지"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/골드비치답"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_toRightOf="@id/시드23"
+        android:background="@drawable/roundbutton"
+        android:text="1.스크루지"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/골드비치나탈리"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/골드비치답"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_toRightOf="@id/골드비치스크루지"
+        android:background="@drawable/roundbutton"
+        android:text="2.나탈리"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/골드비치메이슨"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/골드비치답"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_toRightOf="@id/골드비치나탈리"
+        android:background="@drawable/roundbtnviolet"
+        android:text="3.메이슨"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/골드비치베티"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/골드비치답"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_toRightOf="@id/골드비치메이슨"
+        android:background="@drawable/roundbutton"
+        android:text="4.베티"
+        android:textSize="15dp" />
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/질문경계선"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/골드비치답"
+        android:layout_toRightOf="@id/시드23"
+        />
+
 
 
 
 </RelativeLayout>
-
-<!--리니어와 컨스트의 기능을 딱히 쓰지않아도 되지만(가중치 체인등)-->
-<!--해당 아이콘박스는 리니어로 구성하는것이 가독성도좋고-->
-<!--나열도 상당히 편했음(상대위치지정이 없어도되서)-->
+<!--리니어에 비해서 굳이 얘한테 아이디를 지정해줘야하나 싶을정도의 -->
+<!--뷰에도 전부 아이디를 지정해야하는 귀찮음이 있었음-->
+<!--    (상대적으로 위치를 지정해야하기때문에)-->
+<!--이렇게되면 나중에 아이디가 너무많아져 관리할때 어려움이 따를것같음-->
+<!--특히 이런 리스트들을 만들때 아이디가 너무많아서 가독성이 매우떨어짐-->
+<!--이런상황에 다른 레이아웃을 잘 중첩해서 활용할수있다는걸 알수있었음-->
+<!--리스트안에 아이템들 리니어로 쓰면 좋은이유(아이디를 적게써도된다(정답에만?))-->
+<!--가중치로 크기를 쉽게 조절할수있다-->

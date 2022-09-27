@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
+
     <TextView
         android:id="@+id/버튼타이틀"
         android:layout_width="60dp"
         android:layout_height="30dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
         android:background="@drawable/roundbtnwhite"
         android:fontFamily="@font/jalnan"
         android:gravity="center"
+        android:textColor="@color/teal_700"
         android:text="시드 층"
-        android:textColor="@color/teal_700" />
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
     <Button
         android:id="@+id/시드23"
         android:layout_width="60dp"
@@ -36,7 +38,7 @@
         android:layout_below="@id/시드23"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="5dp"
-        android:background="@drawable/roundbutton"
+        android:background="@drawable/roundbtnviolet"
         android:fontFamily="@font/jalnan"
         android:text="24"
         android:textColor="@color/white"
@@ -49,7 +51,7 @@
         android:layout_below="@id/시드24"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="5dp"
-        android:background="@drawable/roundbtnviolet"
+        android:background="@drawable/roundbutton"
         android:fontFamily="@font/jalnan"
         android:text="36"
         android:textColor="@color/white"
@@ -106,7 +108,7 @@
         android:text="49"
         android:textColor="@color/white"
         android:textSize="20dp" />
-<!--    우측-->
+
     <TextView
         android:id="@+id/타이틀"
         android:layout_width="match_parent"
@@ -116,65 +118,87 @@
         android:background="@drawable/roundbutton"
         android:fontFamily="@font/jalnan"
         android:gravity="center"
-        android:text="시드 24층"
-        android:textSize="29dp" />
-
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/검색"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/타이틀"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="2dp"
-        android:layout_toRightOf="@id/시드23"
-        android:background="@drawable/border"
-        app:iconifiedByDefault="false"
-        app:queryHint="힌트 검색(예: 마을이름,설명)" />
-
-    <View
-        android:id="@+id/리스항구"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_below="@id/검색"
-        android:layout_toRightOf="@id/시드23"
-        android:background="@drawable/border" />
-
-    <ImageView
-        android:id="@+id/리스항구이미지"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/리스항구"
-        android:layout_alignTop="@id/리스항구"
-        android:layout_alignBottom="@id/리스항구"
-        android:background="@drawable/less" />
-    <TextView
-        android:id="@+id/리스항구텍스트"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:fontFamily="@font/jalnan"
-        android:textSize="10dp"
-        android:text="리스항구"
-        android:layout_alignTop="@id/리스항구이미지"
-        android:layout_toRightOf="@id/리스항구이미지"
-        android:layout_alignBottom="@id/리스항구"
+        android:text="시드 36층"
+        android:textSize="29dp"
         />
 
+    <View
+        android:id="@+id/단계1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/타이틀"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/시드23" />
+
     <TextView
-        android:id="@+id/리스항구텍스트2"
+        android:id="@+id/단계텍스트1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/리스항구"
-        android:layout_alignBottom="@id/리스항구"
-        android:layout_toRightOf="@id/리스항구텍스트"
-        android:text="푸른빛 바다가 보이는 부둣가에서 갈매기가 날아다니는 것을 바라보고 있는 느낌이 들어." />
+        android:layout_alignLeft="@id/단계1"
+        android:layout_alignTop="@id/단계1"
+        android:layout_alignBottom="@id/단계1"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:text="1 단계"
+        android:textSize="20dp" />
 
+    <ToggleButton
+        android:id="@+id/주황버섯단계1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/단계1"
+        android:layout_alignBottom="@id/단계1"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@id/단계텍스트1"
+        android:background="@drawable/toggle_selecter"
+        android:textOff="주황버섯"
+        android:textOn="주황버섯"
+        android:textSize="10dp" />
 
+    <ToggleButton
+        android:id="@+id/달팽이단계1"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/단계1"
+        android:layout_alignBottom="@id/단계1"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@id/주황버섯단계1"
+        android:layout_weight="1"
+        android:background="@drawable/toggle_selecter"
+        android:textOff="달팽이"
+        android:textOn="달팽이"
+        android:textSize="10dp" />
+
+    <ToggleButton
+        android:id="@+id/리본돼지단계1"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/단계1"
+        android:layout_alignBottom="@id/단계1"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@id/달팽이단계1"
+        android:layout_weight="1"
+        android:background="@drawable/toggle_selecter"
+        android:textOff="리본돼지"
+        android:textOn="리본돼지"
+        android:textSize="10dp" />
+
+    <ToggleButton
+        android:id="@+id/슬라임단계1"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/단계1"
+        android:layout_alignRight="@id/단계1"
+        android:layout_alignBottom="@id/단계1"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@id/리본돼지단계1"
+        android:layout_weight="1"
+        android:background="@drawable/toggle_selecter"
+        android:textOff="슬라임"
+        android:textOn="슬라임"
+        android:textSize="10dp" />
 
 </RelativeLayout>
 
-<!--리니어와 컨스트의 기능을 딱히 쓰지않아도 되지만(가중치 체인등)-->
-<!--해당 아이콘박스는 리니어로 구성하는것이 가독성도좋고-->
-<!--나열도 상당히 편했음(상대위치지정이 없어도되서)-->
+<!--랠러티브는 나열할때 엄청난 어려움을 겪음(주황버섯버튼부분)-->
+<!--크기조절을 직접 해줘야되서 시간소모가 많이됨-->
