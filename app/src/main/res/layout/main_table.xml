@@ -28,6 +28,21 @@
             android:clickable="true"
             android:layout_span="3"
             >
+
+                <ImageView
+                    android:src="@drawable/dq"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:text="일일 퀘스트"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/jalnan"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+
         </TableLayout>
         <Space
             android:layout_height="100dp" />
@@ -37,6 +52,19 @@
             android:clickable="true"
             android:layout_span="3"
             >
+            <ImageView
+                android:src="@drawable/vonvon"
+                android:layout_gravity="center"
+                android:layout_weight="7"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:text="일일 보스"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
         </TableLayout>
         <Space
             android:layout_height="100dp" />
@@ -50,21 +78,166 @@
             android:background="@drawable/roundbutton"
             android:clickable="true"
             android:layout_span="3"
-            android:layout_column="2"
+            android:layout_column="1"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/wq"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="주간 퀘스트"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
         </TableLayout>
-        <Space
-            android:layout_height="40dp" />
 
         <TableLayout
             android:layout_height="100dp"
             android:background="@drawable/roundbutton"
             android:clickable="true"
             android:layout_span="3"
+            android:layout_column="5"
             >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/balck_mage"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="주간 보스"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </TableLayout>
+
+    </TableRow>
+    <Space
+        android:layout_height="40dp" />
+    <TableRow>
+        <TableLayout
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:layout_span="3"
+            android:layout_column="1"
+            >
+            <ImageView
+                android:src="@drawable/wealth_acquisition_potion"
+                android:layout_gravity="center"
+                android:layout_weight="20"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:text="재획 타이머"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </TableLayout>
+
+        <TableLayout
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:layout_span="3"
+            android:layout_column="5"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/calender"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="일정표"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </TableLayout>
+
+    </TableRow>
+    <Space
+        android:layout_height="40dp" />
+    <TableRow>
+        <TableLayout
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:layout_span="3"
+            android:layout_column="1"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/bordertext"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="시드 도우미"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </TableLayout>
+
+        <TableLayout
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:layout_span="3"
+            android:layout_column="5"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/bordertext"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="무릉 도우미"
+                android:textSize="20dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
         </TableLayout>
 
     </TableRow>
 
 
 </TableLayout>
+
+<!--첫번째행의 넓이와 열의갯수만 맞춰주면 -->
+<!--그다음행부터는 그대로 설정해둔 조건을 따라가서-->
+<!--일정한 규격의 표형식의 화면을 구성하는데에 매우 편리했다-->

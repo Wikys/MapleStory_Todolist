@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mulung"
+    android:stretchColumns="*">
+    <TextView
+
+        android:gravity="center"
+        android:text="무릉 도우미"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/purple_500"
+        />
+    <TextView
+        android:layout_height="500dp"
+        android:background="#8B000000"
+        android:text="도핑을 확인해주세요\n\n길,우뿌\n익스트림레드/블루/그린\n유니온의 힘\n영웅의 메아리\nMVP슈퍼파워\n전영비+고보킬,반빨별+대영비\n노블\n9,10랩 스탯물약,5랩 공마물약\n아기용의 이유식"
+        android:textSize="30dp"
+        android:textColor="@color/teal_700"
+        android:paddingTop="15dp"
+        />
+    <TableRow>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="15:00"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_column="7"
+        android:layout_span="3"
+        />
+        <Space/>
+        <Space/>
+        <Space/>
+        <Space/>
+        <Space/>
+        <Space/>
+        <Space/>
+    </TableRow>
+    <Space android:layout_height="10dp"/>
+    <TableRow>
+        <ProgressBar
+            android:layout_width="0dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_height="10dp"
+            android:progress="900"
+            android:layout_column="1"
+            android:layout_span="15"
+            />
+
+    </TableRow>
+    <TableRow>
+        <ToggleButton
+            android:layout_width="0dp"
+            android:textOff="시작하기"
+            android:textOn="중단"
+            android:gravity="center"
+            android:layout_column="6"
+            android:layout_span="5"
+            />
+
+    </TableRow>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add"
+        />
+
+
+</TableLayout>
+
+<!--스트레치컬럼스 속성으로 가중치기능을 일부 대신할수있고-->
+<!--스팬기능으로 뷰를 합쳐서 조금더 편리하게 사이즈조절이 가능한점이 있으나-->
+<!--세로로는 사용불가능해서 그닥?
+치명적인 단점은 다른행도 열의 갯수를 따라간다는것-->

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="*">
+<!--    이미지 크기가 너무커서 시링크 씀-->
+    <TextView
+        android:id="@+id/타이틀"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="재획 타이머"
+        android:textColor="#FC86D1"
+        android:textSize="40dp"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_height="300dp"
+        android:src="@drawable/wealth_acquisition_potion"
+
+        />
+    <TableRow>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+
+            android:progress="7200"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_span="5"
+
+            />
+
+    </TableRow>
+    <TableRow>
+    <ToggleButton
+        android:id="@+id/타이머토글"
+        android:layout_height="wrap_content"
+        android:textOff="재획 시작"
+        android:textOn="재획 중지"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_span="5"
+        />
+
+
+    </TableRow>
+    <TableRow>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/exp_pendent"
+            android:layout_column="0"
+            />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/exp_postion"
+            android:layout_column="2"
+            />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/exp_rate"
+            android:layout_column="4"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp">
+        <ImageView
+
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/exp_rate_two"
+            android:layout_column="1"
+            />
+        <ImageView
+
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/holy_symbol"
+            android:layout_column="3"
+
+            />
+
+    </TableRow>
+
+</TableLayout>
+
+<!--테이블레이아웃은 가장많은 행의 갯수가 통일되기때문에 -->
+<!--설계를 완벽하게하지않는이상 크기가 제각각인 화면을 만들기가 매우 복잡했음-->
+<!--다만 이런특성을 이용하면 규칙적인 화면은 매우 만들기 편할것으로 보임-->

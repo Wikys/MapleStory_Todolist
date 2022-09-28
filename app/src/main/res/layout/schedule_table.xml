@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mainimage"
+    android:stretchColumns="*"
+    >
+
+    <Switch
+        android:text="알람"
+        android:gravity="right"
+        />
+    <TextView
+        android:gravity="center"
+        android:text="오늘의 이슈!"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+        />
+    <TableRow>
+        <CalendarView
+            android:layout_width="0dp"
+            android:background="@color/white"
+            android:firstDayOfWeek="5"
+
+            android:layout_gravity="center"
+            android:layout_column="1"
+            android:layout_span="5"
+            />
+
+        <CalendarView
+            android:layout_width="0dp"
+            android:background="@color/white"
+            android:firstDayOfWeek="5"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            />
+
+
+
+    </TableRow>
+<TableRow>
+
+    <TextView
+        android:layout_height="150dp"
+        android:background="@drawable/border"
+        android:text="요약 \n오늘 @하세요~"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+
+        android:layout_gravity="center"
+
+        android:layout_span="5"
+        android:layout_weight="1"
+        />
+
+
+    </TableRow>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:layout_gravity="right"
+        app:srcCompat="@android:drawable/ic_input_add"
+
+        />
+
+
+
+
+</TableLayout>
+
+<!--리니어 버티컬로 만드는거랑 딱히 차이가별로없음
+캘린더부분은 크기조절하려면 테이블로우로 간격을 맞춰줘야하는데 (로우안만들면 위드가안먹힘)
+이렇게되면
+너무 비효율적이라 이부분에 테이블은 좀 아닌거같음-->
+<!--플로팅버튼도 여유공간이 부족해서 겹쳐야하는데 테이블과 리니어는 적합하지않음
+여유공간을 만들어서 넣는방법도 있겠지만 그렇게 하고싶지는않음-->
+
+<!--기본적으로 레이아웃이 랩컨텐트 상태로 맞춰져있어서-->
+<!--마진기능으로 간격을 맞추면 뷰가 짤리는 현상이 발생했음-->
+<!--스페이스같은 빈뷰로 간격맞추면 되긴하지만 단점이라생각함-->
+<!--일정한 간격의 아이템을 배치하는게 아닌이상 테이블은 좀 무리인듯함-->
+
+<!--테이블레이아웃의 테이블로우에 추가된 같은 열의 자식뷰중 가장 큰 너비를-->
+<!--가진 뷰 위젯의 너비에 맞춰지는 기능때문에 크기가 들쑥날쑥한 화면을-->
+<!--구성할때 매우 불리한점이 있었음-->
