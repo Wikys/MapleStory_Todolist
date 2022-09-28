@@ -36,26 +36,18 @@
             android:layout_gravity="center"
             android:visibility="invisible"
             />
-
-
-
     </TableRow>
 <TableRow>
-
     <TextView
         android:layout_height="150dp"
         android:background="@drawable/border"
         android:text="요약 \n오늘 @하세요~"
         android:textSize="20dp"
         android:textColor="@color/black"
-
         android:layout_gravity="center"
-
         android:layout_span="5"
         android:layout_weight="1"
         />
-
-
     </TableRow>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_height="50dp"
