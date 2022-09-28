@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimage"
+    android:stretchColumns="*"
+    >
+    <Space
+        android:layout_height="40dp"/>
+    <TextView
+        android:id="@+id/제목"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jalnan"
+        android:text="메인 메뉴"
+        android:textColor="#FC86D1"
+        android:textSize="40dp"
+        android:gravity="center"
+        />
+    <Space
+        android:layout_height="40dp" />
+    <TableRow>
+
+        <Space
+            android:layout_height="100dp" />
+        <TableLayout
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:layout_span="3"
+            >
+        </TableLayout>
+        <Space
+            android:layout_height="100dp" />
+        <TableLayout
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:layout_span="3"
+            >
+        </TableLayout>
+        <Space
+            android:layout_height="100dp" />
+
+    </TableRow>
+    <Space
+        android:layout_height="40dp" />
+    <TableRow>
+        <TableLayout
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:layout_span="3"
+            android:layout_column="2"
+            >
+        </TableLayout>
+        <Space
+            android:layout_height="40dp" />
+
+        <TableLayout
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:clickable="true"
+            android:layout_span="3"
+            >
+        </TableLayout>
+
+    </TableRow>
+
+
+</TableLayout>

@@ -16,7 +16,6 @@
         android:textColor="#FC86D1"
         android:textSize="40dp"
         android:gravity="center"
-
         />
 <!--    컨스트는 위드를 랩컨텐트로 해도 제약으로 가운대정렬이 가능한데-->
 <!--    리니어는 매치패런트로 크기를 죽 늘려놓고 그라비티 옵션으로 내용물을 가운대 정렬 해야함-->

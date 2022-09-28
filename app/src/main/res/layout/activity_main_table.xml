@@ -1,6 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimage"
+    android:stretchColumns="*">
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jalnan"
+        android:text="메할일 체크리스트"
+        android:textColor="#FC86D1"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+    <TableRow>
+        <View android:layout_height="280dp"
+            android:layout_marginTop="40dp"/>
 
-</TableLayout>
+    <TableLayout
+        android:layout_marginTop="40dp"
+        android:layout_height="280dp"
+        android:background="@drawable/bordertext"
+        android:layout_span="5"
+        android:stretchColumns="1,2,3,4,5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:text="LOGIN"
+            android:textColor="#FC86D1"
+            android:textSize="35dp"
+            android:layout_marginTop="20dp"
+            />
+        <TableRow
+            android:layout_weight="1">
+            <View/>
+            <View/>
+
+            <EditText
+                android:layout_span="3"
+                android:hint="아이디"
+                />
+            <View/>
+            <View/>
+        </TableRow>
+        <TableRow
+            android:layout_weight="1">
+            <View/>
+            <View/>
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:hint="비밀번호" />
+            <View/>
+            <View/>
+        </TableRow>
+        <TableRow
+            android:layout_weight="1">
+            <View/>
+            <View/>
+            <Button
+                android:layout_gravity="center"
+                android:background="@drawable/roundbutton"
+                android:text="확인"
+                android:layout_column="3"
+                />
+            <View/>
+            <View/>
+        </TableRow>
+    </TableLayout>
+        <View android:layout_height="280dp"
+            android:layout_marginTop="40dp"
+            />
+
+    </TableRow>
+    <TableRow>
+        <View android:layout_height="280dp"
+            android:layout_marginTop="40dp"
+            android:layout_span="3"/>
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:background="@drawable/logo"
+            android:layout_span="1"/>
+
+        <View android:layout_height="280dp"
+            android:layout_marginTop="40dp"
+            android:layout_span="3"/>
+    </TableRow>
+
+    </TableLayout>
+
+<!--사이즈를 안줘도 자동으로 랩컨텐트로 지정됨-->
+<!--테이블의 전용 속성으로 크기조절가능(코드간소화)-->
+<!--스팬으로 리니어의 가중치와 비슷한 기능을 수행할수 있었지만 웨이트썸 속성과의 -->
+<!--차이가 없음-->
+<!--그냥 가중치로 쓰려고했으나 그렇게되면 리니어를 쓰는것과 차이가없음-->
+<!--스트레치 컬럼 속성을 통해 셀크기를 조정가능 *하면 균등분배-->
+<!--가로 비율을 맞추기위해 전체적으로 스팬기능을 많이썻고-->
+<!--세로는 어쩔수없이 가중치를사용함 현재 화면에서는 리니어에 비해 나은점이 전혀없음-->
+<!--오히려 정신없어지기만함-->

@@ -26,6 +26,7 @@
         android:layout_gravity="center"
         android:orientation="vertical"
         android:background="@drawable/bordertext"
+
         >
 <!--        중첩된 형태를 리니어레이아웃만으로 만들기위에 
  리니어레이아웃으로 아이템을 그룹지어줌-->
