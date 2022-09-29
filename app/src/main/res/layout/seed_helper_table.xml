@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/seedback"
-    android:orientation="horizontal"
-
-    >
-
-    <LinearLayout
+    android:shrinkColumns="*">
+    <TableLayout
         android:layout_width="60dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:orientation="vertical"
         >
 
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="1">
         <TextView
             android:layout_width="60dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:background="@drawable/roundbtnwhite"
             android:fontFamily="@font/jalnan"
             android:gravity="center"
@@ -27,32 +27,45 @@
             android:layout_marginBottom="5dp"
             />
 
+    </TableRow>
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_weight="1">
         <Button
             android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="23"
             android:layout_marginBottom="5dp"/>
-
+    </TableRow>
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_weight="1">
         <Button
             android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="24"
             android:layout_marginBottom="5dp"/>
-
+    </TableRow>
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_weight="1">
         <Button
             android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
             android:textColor="@color/white"
@@ -60,68 +73,78 @@
             android:text="36"
             android:layout_marginBottom="5dp"/>
 
+
+    </TableRow>
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_weight="1">
         <Button
             android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="39"
             android:layout_marginBottom="5dp"/>
-
+    </TableRow>
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_weight="1">
         <Button
             android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="47"
             android:layout_marginBottom="5dp"/>
-
+    </TableRow>
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_weight="1">
         <Button
             android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="48"
             android:layout_marginBottom="5dp"/>
-
+    </TableRow>
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_weight="1">
         <Button
             android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:fontFamily="@font/jalnan"
             android:background="@drawable/roundbtnviolet"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="49"
             android:layout_marginBottom="5dp"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="350dp"
-        android:layout_height="match_parent"
-
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:fontFamily="@font/jalnan"
-            android:textColor="@color/white"
-            android:textSize="29dp"
-            android:text="공략을 보고싶은 층을 선택해주세요"
-            android:gravity="center"
-            />
-    </LinearLayout>
+    </TableRow>
+    </TableLayout>
 
 
-</LinearLayout>
 
+
+
+
+
+</TableLayout>
+
+<!--왼쪽- 그냥 버티컬로 바꾸고 쌓아내려가면 끝나는 리니어와 달리 테이블로우로 아이템들을 묶어서-->
+<!--써내려가야함-->
+<!--테이블레이아웃 크기조절이 안되서 레이아웃을 겹쳐쓸수가없음-->
