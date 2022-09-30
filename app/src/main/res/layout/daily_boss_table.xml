@@ -23,7 +23,7 @@
         <TableLayout android:layout_height="150dp"
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2">
+            android:layout_span="3">
             <ImageView
                 android:layout_height="0dp"
                 android:src="@drawable/zakum"
@@ -42,7 +42,7 @@
         <TableLayout android:layout_height="150dp"
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2">
+            android:layout_span="3">
             <ImageView
                 android:layout_height="0dp"
                 android:src="@drawable/hila"
@@ -61,7 +61,7 @@
         <TableLayout android:layout_height="150dp"
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2">
+            android:layout_span="3">
             <ImageView
                 android:layout_height="0dp"
                 android:src="@drawable/hontail"
@@ -81,7 +81,7 @@
 
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2">
+            android:layout_span="3">
             <ImageView
                 android:layout_height="0dp"
                 android:src="@drawable/von_leon"
@@ -104,7 +104,7 @@
         <TableLayout android:layout_height="150dp"
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2"
+            android:layout_span="3"
             android:layout_column="1">
             <ImageView
                 android:layout_height="0dp"
@@ -124,7 +124,7 @@
         <TableLayout android:layout_height="150dp"
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2"
+            android:layout_span="3"
             android:layout_column="1">
             <ImageView
                 android:layout_height="0dp"
@@ -144,7 +144,7 @@
         <TableLayout android:layout_height="150dp"
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2"
+            android:layout_span="3"
             android:layout_column="1">
             <ImageView
                 android:layout_height="0dp"
@@ -164,7 +164,7 @@
         <TableLayout android:layout_height="150dp"
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2"
+            android:layout_span="3"
             android:layout_column="1">
             <ImageView
                 android:layout_height="0dp"
@@ -187,7 +187,7 @@
         <TableLayout android:layout_height="150dp"
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2"
+            android:layout_span="3"
             android:layout_column="1">
             <ImageView
                 android:layout_height="0dp"
@@ -207,7 +207,7 @@
         <TableLayout android:layout_height="150dp"
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2"
+            android:layout_span="3"
             android:layout_column="1">
             <ImageView
                 android:layout_height="0dp"
@@ -227,7 +227,7 @@
         <TableLayout android:layout_height="150dp"
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2"
+            android:layout_span="3"
             android:layout_column="1">
             <ImageView
                 android:layout_height="0dp"
@@ -247,7 +247,7 @@
         <TableLayout android:layout_height="150dp"
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
-            android:layout_span="2"
+            android:layout_span="3"
             android:layout_column="1">
             <ImageView
                 android:layout_height="0dp"
@@ -275,7 +275,12 @@
 <!--리니어같은경우엔 웨이트썸을 수정해서 가중치를 변경한다던가 하는식으로-->
 <!--간편하게 할수있는데 테이블레이아웃의 속성을 이용해서-->
 <!--모양을 잡을경우에는 빈뷰를 더 추가해서 스팬으로 합쳐야 한다던가 굉장히-->
-<!--번거로움-->
+<!--번거로움 (x)-->
+<!--(스팬늘리면 알아서 안보이는 빈뷰가 추가됨....)-->
 
-<!--규격을 잘못정을때 수정하기가 마땅치않았음(확장성이 떨어짐?)-->
+<!--규격을 잘못정했을때 수정하기가 마땅치않았음(확장성이 떨어짐?)-->
+
+
+
+
 

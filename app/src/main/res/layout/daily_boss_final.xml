@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainimage">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</TableLayout>
+
+<!--리니어 컨스트 테이블중에 고민후 테이블선택-->
+
+<!--    스트레치 컬럼 속성의 열이 늘어날때마다
+ 자동으로 화면을 채워줘 일정한 간격의 크기로 나열되는 기능으로
+ 가로사이즈 조절을 안해도되는 장점이있었고
+ -->
+<!--    한번 정해진 행의 크기는 열이 바뀌어도 적용되는 장점을통해-->
+<!--    표형식의 화면은 손쉽게 만들수있는 장점이 있었습니다-->
