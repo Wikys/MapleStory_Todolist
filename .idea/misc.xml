@@ -12,13 +12,16 @@
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.23897707231040563" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main_const.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main_final.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/activity_main_frame.xml" value="0.22056159420289856" />
-        <entry key="app/src/main/res/layout/activity_main_linear.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main_linear.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main_relative.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main_table.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/daily_boss.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/daily_boss.xml" value="0.25" />
         <entry key="app/src/main/res/layout/daily_boss_const.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/daily_boss_final.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/daily_boss_relative.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/daily_boss_table.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/daily_quest.xml" value="0.25" />
         <entry key="app/src/main/res/layout/daily_quest_const.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/daily_quest_const_fail.xml" value="0.19610507246376813" />
@@ -26,6 +29,7 @@
         <entry key="app/src/main/res/layout/daily_quest_relative.xml" value="0.25" />
         <entry key="app/src/main/res/layout/main.xml" value="0.20933329264322917" />
         <entry key="app/src/main/res/layout/main_const.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/main_final.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/main_linear.xml" value="0.25" />
         <entry key="app/src/main/res/layout/main_relative.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/main_table.xml" value="0.25" />
