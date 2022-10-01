@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimage"
+    android:stretchColumns="*">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="일일퀘스트"
+        android:textColor="@color/purple_200"
+        android:fontFamily="@font/jalnan"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        />
+    <TableRow>
+        <Space android:layout_height="200dp"/>
+        <TableLayout
+            android:layout_height="200dp"
+            android:layout_span="3"
+            >
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/vanishing_journey" />
+            <TextView
+                android:layout_height="0dp"
+                android:text="소멸의 여로"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                />
+
+            <ToggleButton
+                android:layout_height="0dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                android:layout_weight="1"
+                />
+
+        </TableLayout>
+
+        <Space android:layout_height="200dp"/>
+        <TableLayout
+            android:layout_height="200dp"
+            android:layout_span="3"
+            >
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/chuchu_island" />
+
+            <TextView
+
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:text="츄츄 아일랜드"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                />
+            <ToggleButton
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+
+
+        </TableLayout>
+        <Space android:layout_height="200dp"/>
+
+
+    </TableRow>
+    <TableRow
+        android:layout_height="200dp">
+        <TableLayout android:layout_column="1"
+            android:layout_span="3"
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/lachelein" />
+
+            <TextView
+                android:layout_height="0dp"
+                android:text="레헬른"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                android:layout_weight="1"
+                />
+        </TableLayout>
+        <TableLayout android:layout_column="5"
+            android:layout_span="3"
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/arcana" />
+
+            <TextView
+                android:layout_height="0dp"
+                android:text="아르카나"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                android:layout_weight="1"
+                />
+        </TableLayout>
+    </TableRow>
+    <TableRow
+        android:layout_height="200dp">
+        <TableLayout android:layout_column="1"
+            android:layout_span="3"
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/morass" />
+
+            <TextView
+                android:layout_height="0dp"
+                android:text="모라스"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                android:layout_weight="1"
+                />
+        </TableLayout>
+        <TableLayout android:layout_column="5"
+            android:layout_span="3"
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/esfera" />
+
+            <TextView
+                android:layout_height="0dp"
+                android:text="에스페라"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="미완료"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                android:layout_weight="1"
+                />
+        </TableLayout>
+    </TableRow>
+
+</TableLayout>
+
+
+
+<!--리니어 테이블 컨스트중에 고민중-->
+
+<!--테이블레이아웃 사용-->
+
+<!--이것도 방금전에 보여드렸던 데일리퀘스트와 유사한 이유로 선택했습니다-->
+<!--컨스트를 이용해서 만들경우 가로로는 스프레드체인속성과 이미지부분에는 세로로 팩체인속성을-->
+<!--이용해서 깔끔하게 배치가 가능했으나-->
+<!--테이블레이아웃의 가중치기능과 스트래치컬럼으로 충분히 구현이 가능한부분이었고-->
+<!--쓸데없는 코드가 너무 많아져 가독성이 매우 떨어지는 단점이 있었습니다-->
+
+<!--리니어의 경우에는 테이블레이아웃과 거의 비슷한 환경으로 만들수있었으나 -->
+<!--방금전에 보여드렸던 화면과 마찬가지의 이유로 테이블레이아웃에 비해 가독성이-->
+<!--조금 떨어져 테이블레이아웃을 사용하게되었습니다-->
+
+<!--테이블레이아웃은 표방식으로 화면을 구성하는 레이아웃이라 사용이 매우 제한적이지만-->
+<!--표방식의 뷰 나열에는 아주 효율적이라는 생각이 들었습니다-->
+
+

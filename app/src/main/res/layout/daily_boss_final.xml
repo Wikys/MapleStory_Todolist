@@ -2,15 +2,289 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainimage">
+    android:background="@drawable/mainimage"
+    android:stretchColumns="*">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/jalnan"
+        android:gravity="center"
+        android:text="일일 보스"
+        android:textColor="@color/purple_200"
+        android:textSize="40dp" />
+
+    <TableRow>
+
+        <Space android:layout_height="150dp" />
+
+        <TableLayout android:layout_height="150dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/zakum"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+        <TableLayout android:layout_height="150dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/hila"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+        <TableLayout android:layout_height="150dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/hontail"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+        <TableLayout android:layout_height="150dp"
+
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/von_leon"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+        <Space android:layout_height="150dp" />
+
+    </TableRow>
+    <TableRow android:layout_height="150dp">
+        <TableLayout android:layout_height="150dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3"
+            android:layout_column="1">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/arkarium"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+        <TableLayout android:layout_height="150dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3"
+            android:layout_column="1">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/bloody_queen"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+        <TableLayout android:layout_height="150dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3"
+            android:layout_column="1">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/pierre"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+        <TableLayout android:layout_height="150dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3"
+            android:layout_column="1">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/vonvon"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+
+    </TableRow>
+    <TableRow android:layout_height="150dp">
+        <TableLayout android:layout_height="150dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3"
+            android:layout_column="1">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/kaung"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+        <TableLayout android:layout_height="150dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3"
+            android:layout_column="1">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/magnus"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+        <TableLayout android:layout_height="150dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3"
+            android:layout_column="1">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/pinkbean"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+        <TableLayout android:layout_height="150dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_span="3"
+            android:layout_column="1">
+            <ImageView
+                android:layout_height="0dp"
+                android:src="@drawable/vellum"
+                android:layout_weight="2"
+                />
+            <ToggleButton
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textOff="도전가능"
+                android:textOn="Clear"
+                android:fontFamily="@font/jalnan"
+                />
+        </TableLayout>
+
+    </TableRow>
 
 </TableLayout>
 
 <!--리니어 컨스트 테이블중에 고민후 테이블선택-->
 
+<!--컨스트로 만들경우엔 팩체인 속성으로 안쪽으로 뭉쳐진형태를 손쉽게 만들수있었으나 -->
+<!--한 행을 만들어두면 아래줄부터는 작성만 해두면 따로 손볼것이없는 테이블과는 달리-->
+<!--매번 상대적인 위치지정으로 상호연결을 해줘야해서 손이 많이가는 단점이 있었습니다-->
+
+<!--리니어의 경우에는 테이블과 매우 유사하지만(가로세로배치나 가중치등) 스팬과 컬럼속성이 없기때문에-->
+<!--한 행만 완성해두면 다음행부터는 쭉 모양이 유지되는 테이블과 다르게 -->
+<!--모양을 잡아주기위해 빈뷰를 배치해서 모양을 잡는등의 쓸데없는 코드가 늘어-->
+<!--가독성이 떨어지는 단점이 있었습니다-->
+
+<!--따라서 테이블레이아웃을 선택했는데 테이블 레이아웃은-->
+
 <!--    스트레치 컬럼 속성의 열이 늘어날때마다
  자동으로 화면을 채워줘 일정한 간격의 크기로 나열되는 기능으로
- 가로사이즈 조절을 안해도되는 장점이있었고
+ 가로사이즈 조절을 안해도되는 장점이있었고 (가중치에도 있는 장점이긴함)
  -->
 <!--    한번 정해진 행의 크기는 열이 바뀌어도 적용되는 장점을통해-->
-<!--    표형식의 화면은 손쉽게 만들수있는 장점이 있었습니다-->
+<!--   일정한 규격의 표형식 화면을 만들때 가장 유리하다고 생각해
+ 테이블레이아웃을 선택했습니다-->
