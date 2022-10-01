@@ -28,7 +28,8 @@
             android:progress="7200"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_span="5"
+            android:layout_column="1"
+            android:layout_span="3"
 
             />
 
@@ -70,28 +71,22 @@
             android:src="@drawable/exp_rate"
             android:layout_column="4"
             />
-
     </TableRow>
     <TableRow
         android:layout_marginTop="20dp">
         <ImageView
-
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:src="@drawable/exp_rate_two"
             android:layout_column="1"
             />
         <ImageView
-
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:src="@drawable/holy_symbol"
             android:layout_column="3"
-
             />
-
     </TableRow>
-
 </TableLayout>
 
 <!--테이블레이아웃은 가장많은 행의 갯수가 통일되기때문에 -->

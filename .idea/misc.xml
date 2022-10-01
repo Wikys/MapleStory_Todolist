@@ -68,7 +68,8 @@
         <entry key="app/src/main/res/layout/seedtwentythree.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/test.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/timer.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/timer_const.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/timer_const.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/timer_final.xml" value="0.21422101449275363" />
         <entry key="app/src/main/res/layout/timer_linear.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/timer_relative.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/timer_table.xml" value="0.22056159420289856" />
