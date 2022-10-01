@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mulung">
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+컨스트사용
+
+리니어 사용시
+맨아래 fab버튼 오른쪽에 토글버튼부분 위치 잡아주려면
+마진으로 조절을 해야하는데 삐뚫어진 부분이 생길수밖에 없었음
+따라서 컨스트로 대체하고 체인으로 두 버튼을 연결후에 fab 버튼에
+마진을 줘서 배치하는방식을 선택함
+
+테이블을 사용할경우
