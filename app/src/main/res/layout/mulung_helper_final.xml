@@ -2,16 +2,103 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/mulung">
+    <TextView
+        android:id="@+id/타이틀"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="무릉 도우미"
+        android:textSize="30dp"
+
+        android:textColor="@color/purple_500"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/준비"
+        app:layout_constraintVertical_chainStyle="spread"
+        />
+    <TextView
+        android:id="@+id/준비"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8B000000"
+        android:text="도핑을 확인해주세요\n\n길,우뿌\n익스트림레드/블루/그린\n유니온의 힘\n영웅의 메아리\nMVP슈퍼파워\n전영비+고보킬,반빨별+대영비\n노블\n9,10랩 스탯물약,5랩 공마물약\n아기용의 이유식"
+        android:textSize="30dp"
+        android:textColor="@color/teal_700"
+        app:layout_constraintTop_toBottomOf="@id/타이틀"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/타이머"
+        />
+    <TextView
+        android:id="@+id/타이머"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="15:00"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/준비"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/시각타이머"
+        />
+    <ProgressBar
+        android:id="@+id/시각타이머"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:progress="900"
+        app:layout_constraintTop_toBottomOf="@id/타이머"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/시작"
+        />
+    <ToggleButton
+        android:id="@+id/시작"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="시작하기"
+        android:textOn="중단"
+        app:layout_constraintTop_toBottomOf="@id/시각타이머"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/일정추가"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/시각타이머"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/시작"
+        android:layout_marginRight="50dp"
+
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-컨스트사용
 
-리니어 사용시
-맨아래 fab버튼 오른쪽에 토글버튼부분 위치 잡아주려면
-마진으로 조절을 해야하는데 삐뚫어진 부분이 생길수밖에 없었음
-따라서 컨스트로 대체하고 체인으로 두 버튼을 연결후에 fab 버튼에
-마진을 줘서 배치하는방식을 선택함
 
-테이블을 사용할경우
+<!--컨스트사용-->
+
+<!--리니어 사용시-->
+<!--맨아래 fab버튼 오른쪽에 토글버튼부분 위치 잡아주려면-->
+<!--마진으로 조절을 해야하는데 삐뚫어진 부분이 생길수밖에 없었음-->
+<!--따라서 컨스트로 대체하고 체인으로 두 버튼을 연결후에 fab 버튼에-->
+<!--마진을 줘서 배치하는방식을 선택함-->
+
+<!--테이블을 사용할경우-->
+<!--배치할 열을 정해서(레이아웃컬럼속성) 배치할수있는 테이블의 특성상-->
+<!--fab버튼을 배치하는데에는 문제가 없었지만 프로스래스바의 크기를 원하는 크기대로 조절할수가 없었습니다-->
+<!--이부분은 조금더 고민해보고 설계를 제대로 해봤으면 해결할수도 있었으나 간단한 뷰배치 한번에-->
+<!--이렇게까지 고민을 해야된다는것 자체가 이런 배치에 어울리진 않는다고 생각이 들어서
+컨스트를 사용하였습니다
+

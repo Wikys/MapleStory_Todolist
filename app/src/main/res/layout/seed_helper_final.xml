@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+리니어 레이아웃 사용
+
+왼쪽 세로버튼부분 가중치로 쌓기위해서 사용했음
+
+컨스트에 체인가중치 속성으로도 가능하지만
+상대위치지정을 버튼마다 해줘야해서 손이많이가서안했음
