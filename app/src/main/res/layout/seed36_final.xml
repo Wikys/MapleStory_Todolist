@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
 
     >
@@ -12,6 +11,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:orientation="vertical"
+
+
         >
 
         <TextView
@@ -44,7 +45,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
-            android:background="@drawable/roundbutton"
+            android:background="@drawable/roundbtnviolet"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="24"
@@ -55,7 +56,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:fontFamily="@font/jalnan"
-            android:background="@drawable/roundbtnviolet"
+            android:background="@drawable/roundbutton"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:text="36"
@@ -109,94 +110,143 @@
     <LinearLayout
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:weightSum="10">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="@font/jalnan"
             android:textSize="29dp"
-            android:text="시드 24층"
+            android:text="시드 36층"
             android:gravity="center"
             android:background="@drawable/roundbutton"
             />
-        <androidx.appcompat.widget.SearchView
-
-            android:layout_marginTop="2dp"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/border"
-            app:queryHint="힌트 검색(예: 마을이름,설명)"
-            app:iconifiedByDefault="false"
-            />
-
-
         <LinearLayout
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/border"
-            android:layout_marginBottom="2dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/less"
-                />
+            android:orientation="horizontal"
+            >
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:text="1 단계"
+                android:textSize="20dp"
                 android:fontFamily="@font/jalnan"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:textOff="주황버섯"
+                android:textOn="주황버섯"
                 android:textSize="10dp"
-                android:text="리스항구"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_selecter"
+                android:layout_marginRight="2dp"
                 />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="푸른빛 바다가 보이는 부둣가에서 갈매기가 날아다니는 것을 바라보고 있는 느낌이 들어."
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:textOff="달팽이"
+                android:textOn="달팽이"
+                android:textSize="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_selecter"
+                android:layout_marginRight="2dp"
                 />
-
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:textOff="리본돼지"
+                android:textOn="리본돼지"
+                android:textSize="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_selecter"
+                android:layout_marginRight="2dp"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:textOff="슬라임"
+                android:textOn="슬라임"
+                android:textSize="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_selecter"
+                />
         </LinearLayout>
         <LinearLayout
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/border"
-            android:layout_marginBottom="2dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/perion"
-
-
-                />
+            android:orientation="horizontal"
+            >
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:text="2 단계"
+                android:textSize="20dp"
                 android:fontFamily="@font/jalnan"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:textOff="주황버섯"
+                android:textOn="주황버섯"
                 android:textSize="10dp"
-                android:text="페리온"
-
-
+                android:layout_weight="1"
+                android:background="@drawable/toggle_selecter"
+                android:layout_marginRight="2dp"
                 />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="황량한 바람이 부는 황무지 한가운데, 비장한 전투 부족과 마주친 느낌이 들어."
-
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:textOff="달팽이"
+                android:textOn="달팽이"
+                android:textSize="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_selecter"
+                android:layout_marginRight="2dp"
                 />
-
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:textOff="리본돼지"
+                android:textOn="리본돼지"
+                android:textSize="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_selecter"
+                android:layout_marginRight="2dp"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:textOff="슬라임"
+                android:textOn="슬라임"
+                android:textSize="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_selecter"
+                android:layout_marginRight="2dp"
+                />
         </LinearLayout>
+
     </LinearLayout>
-
-
-
 
 </LinearLayout>
 
-<!--힌트를 검색해서 노래를 찾는 화면-->
-<!--리니어 레이아웃으로 구성-->
-<!--스크롤뷰 사용하지말라고해서 일단은 보류-->
+<!--테이블레이아웃 구성-->
+
+<!--같은형태의 박스가 규칙적으로 세로로 나열돼있고-->
+<!--모든 뷰의 크기가 일치하는형태입니다-->
+
+<!--테이블레이아웃으로 만들었고-->
+<!--이유는 컨스트와 릴레이티브의 기능이 전혀 필요없는 구성이었고-->
+<!--오히려 코드만 길어질것같아서 리니어와 테이블중에 고민하였고-->
+
+<!--동일한 크기의 버튼들을 만들기위해서 가중치정도의 기능만 필요하다고 생각했습니다-->
+<!--따라서 테이블레이아웃의 속성과 특성등은 (열크기 통일같은거?) 필요가없다고-->
+<!--판단해 리니어레이아웃으로 구성하였습니다-->
+

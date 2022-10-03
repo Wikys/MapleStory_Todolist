@@ -181,18 +181,7 @@
                 android:textColor="@color/white"
                 android:textSize="20dp" />
 
-
-
         </RelativeLayout>
-
         </LinearLayout>
-
-
-
-
-
-
     </LinearLayout>
-
-
 </LinearLayout>

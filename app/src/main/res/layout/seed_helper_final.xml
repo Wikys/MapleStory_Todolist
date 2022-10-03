@@ -1,13 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/seedback"
+    android:orientation="horizontal"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    >
 
-리니어 레이아웃 사용
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        >
 
-왼쪽 세로버튼부분 가중치로 쌓기위해서 사용했음
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@drawable/roundbtnwhite"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:textColor="@color/teal_700"
+            android:text="시드 층"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
 
-컨스트에 체인가중치 속성으로도 가능하지만
-상대위치지정을 버튼마다 해줘야해서 손이많이가서안했음
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="23"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="24"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="36"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="39"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="47"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="48"
+            android:layout_marginBottom="5dp"/>
+
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="49"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/jalnan"
+            android:textColor="@color/white"
+            android:textSize="29dp"
+            android:text="공략을 보고싶은 층을 선택해주세요"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+<!--    리니어 레이아웃 사용-->
+
+<!--왼쪽 세로버튼부분을 가중치로 쌓기위해서 사용했음-->
+
+<!--컨스트에 체인가중치 속성으로도 가능하지만-->
+
+<!--    일일히 상대위치를 연결해주는것이 매우 피곤했다-->
+<!--    (리니어는 차례대로 쓰고 무게만 지정해주면끝)-->

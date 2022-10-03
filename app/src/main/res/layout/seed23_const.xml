@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     >
+
     <TextView
         android:id="@+id/버튼타이틀"
         android:layout_width="60dp"
@@ -124,6 +125,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toTopOf="@id/스테이지1"
         />
+
 
     <ImageView
         android:id="@+id/스테이지1"

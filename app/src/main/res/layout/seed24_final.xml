@@ -135,68 +135,58 @@
             />
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TableLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/border"
-            android:layout_marginBottom="2dp">
+            android:stretchColumns="*"
+            android:shrinkColumns="*"
+            >
+            <TableRow
+                android:background="@drawable/border"
+                android:layout_marginBottom="2dp">
+                <ImageView
+                    android:background="@drawable/less"
+                    />
+                <TextView
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/jalnan"
+                    android:textSize="10dp"
+                    android:text="리스항구"
+                    />
+                <TextView
+                    android:text="푸른빛 바다가 보이는 부둣가에서 갈매기가 날아다니는 것을 바라보고 있는 느낌이 들어."
+                    android:layout_span="40"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="@drawable/border"
+                android:layout_marginBottom="2dp"
+                >
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/less"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/jalnan"
-                android:textSize="10dp"
-                android:text="리스항구"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="푸른빛 바다가 보이는 부둣가에서 갈매기가 날아다니는 것을 바라보고 있는 느낌이 들어."
-                />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/border"
-            android:layout_marginBottom="2dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:background="@drawable/perion"
-
-
                 />
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/jalnan"
                 android:textSize="10dp"
                 android:text="페리온"
-
-
                 />
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="황량한 바람이 부는 황무지 한가운데, 비장한 전투 부족과 마주친 느낌이 들어."
-
+                android:layout_span="40"
                 />
-
-        </LinearLayout>
+            </TableRow>
+        </TableLayout>
     </LinearLayout>
-
-
-
-
 </LinearLayout>
 
-<!--힌트를 검색해서 노래를 찾는 화면-->
-<!--리니어 레이아웃으로 구성-->
-<!--스크롤뷰 사용하지말라고해서 일단은 보류-->
+<!--아이콘박스부분을 테이블레이아웃으로 구성하였습니다-->
+
+<!--리니어로 구성하려했으나 웨이트속성으로 텍스트박스의 크기를 조정해주는것이-->
+<!--쉽지않아 박스크기만 잡아놓고 텍스트 내용 크기 조정을 통해
+조절하려고했지만 이렇게될경우 박스마다 텍스트의 크기가 다른상황이
+생길것같아서 모든 행의 크기가 통일되는 테이블레이아웃을 사용하였습니다
+또한
+ 지금은 아이템박스가 두개밖에없지만 원래는 수백개가 들어갔어야하는-->
+<!--화면이라 가능하면 반복적인 코드를 줄이는것이 낫겠다 판단되서 테이블레이아웃을-->
+<!--사용하여 스팬기능으로 크기를 조절하였습니다-->

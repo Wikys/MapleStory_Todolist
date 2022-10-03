@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+
+    >
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+
+
+        >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbtnwhite"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:textColor="@color/teal_700"
+            android:text="시드 층"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+
+            />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="23"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="24"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="36"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbutton"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="39"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="47"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="48"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jalnan"
+            android:background="@drawable/roundbtnviolet"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="49"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/jalnan"
+            android:textSize="29dp"
+            android:text="시드 39층"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            />
+        <androidx.appcompat.widget.SearchView
+
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            app:queryHint="문제 또는 답 검색(예:골드비치)"
+            app:iconifiedByDefault="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="골드비치 리조트에 거주하는 잡화 상인 이름은?"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="1.스크루지"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="2.나탈리"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbtnviolet"
+                android:text="3.메이슨"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="4.베티"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="노틸러스의 무기 상인 이름은?"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="1.리드"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="2.프란시스"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="3.테스"
+                android:textSize="15dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbtnviolet"
+                android:text="4.모건"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+    </LinearLayout>
+</LinearLayout>
+
+<!--시드36화면쪽이랑 동일한 이유입니다-->
+<!--컨스트와 릴레이티브를 안쓴이유에대해서 조금더 추가설명을 드리면-->
+<!--    리니어에 비해서 상대적으로 위치를 지정해야하기때문에-->
+<!--    굳이 얘한테 아이디를 지정해줘야하나 싶을정도의 -->
+<!--    뷰에도 전부 아이디를 지정해야하는 귀찮음이 있었습니다-->
+<!--(예를들면 이화면에서 제가 보라색으로 칠해놓은 버튼이 퀴즈의 정답인데-->
+<!--정답외의 버튼에 굳이 아이디를 달 필요가 없다고 느꼇습니다)-->
+<!--(나중에 이벤트지정할때 정답아니면 다 오답처리하는식으로 하면되니까)-->
+<!--        -->
+<!--    이렇게되면 나중에 아이디가 너무많아져 관리할때 어려움이 따를것같았습니다-->
+<!--    특히 이런 리스트들을 만들때 아이디가 너무많아서 가독성이 매우떨어졌습니다-->
+
+
